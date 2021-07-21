@@ -1,7 +1,7 @@
-nltk @ file:///tmp/build/80754af9/nltk_1592496090529/work
-torch==1.8.1+cu111
+nltk==3.6.1
+torch==1.8.1
 torchaudio==0.8.1
-torchvision==0.9.1+cu111
+torchvision==0.9.1
 rouge==1.0.0
 bert-score==0.3.9
 transformers @ git+https://github.com/huggingface/transformers@c2e0fd5283fa29bf0d0bed1fdbc9b4206e47c1d1
