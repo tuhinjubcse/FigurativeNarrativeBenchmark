@@ -1,4 +1,4 @@
-# Generative Models
+# Discriminative Models
 
 ## Supervised baseline and knowledge-enhanced models
 
