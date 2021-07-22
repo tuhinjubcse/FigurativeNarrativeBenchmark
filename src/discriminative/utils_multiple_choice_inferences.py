@@ -9,7 +9,7 @@ from typing import List, Optional
 from dataclasses import dataclass
 from torch.nn import CrossEntropyLoss
 from torch.utils.data.dataset import Dataset
-from transformers import RobertaForMultipleChoice
+from transformers import BertPreTrainedModel,RobertaConfig,RobertaModel
 from transformers.data.processors.utils import DataProcessor
 
 from src.discriminative.common import Split
@@ -158,7 +158,7 @@ def convert_examples_to_features(examples: List[InputExample],
             for idx, (context, inference) in enumerate(zip(example.contexts, example.inferences)):
                 inference = inference.replace('personx', '').lstrip()
                 arr.append(inference)
-                text_a = " </s> ".join((context, inference))
+                text_a = context+' </s> '+inference
                 text_b = choice
 
                 inputs = tokenizer(text_a,
@@ -187,6 +187,8 @@ def convert_examples_to_features(examples: List[InputExample],
             [x["token_type_ids"] for x in choices_inputs] if "token_type_ids" in choices_inputs[0] else None
         )
 
+        print(torch.tensor(input_ids).shape)
+
         features.append(
             InputFeatures(
                 example_id=example.example_id,
@@ -204,9 +206,16 @@ def convert_examples_to_features(examples: List[InputExample],
     return features
 
 
-class RobertaForMultipleChoiceWithInferences(RobertaForMultipleChoice):
+class RobertaForMultipleChoiceWithInferences(BertPreTrainedModel):
+    config_class = RobertaConfig
+    base_model_prefix = "roberta"
+
     def __init__(self, config):
         super().__init__(config)
+        self.roberta = RobertaModel(config)
+        self.dropout = torch.nn.Dropout(config.hidden_dropout_prob)
+        self.classifier = torch.nn.Linear(config.hidden_size, 1)
+        self.init_weights()
 
     def forward(
         self,
@@ -223,12 +232,12 @@ class RobertaForMultipleChoiceWithInferences(RobertaForMultipleChoice):
         # Choice 1
         choice1_id = input_ids[0][0]
         choice1_mask = attention_mask[0][0]
-        outputs1 = self.roberta(choice1_id.squeeze(1), attention_mask=choice1_mask)
+        outputs1 = self.roberta(choice1_id.squeeze(1),position_ids=None,token_type_ids=None,attention_mask=choice1_mask,inputs_embeds=None)
 
         # Choice 2
         choice2_id = input_ids[0][1]
         choice2_mask = attention_mask[0][1]
-        outputs2 = self.roberta(choice2_id.squeeze(1), attention_mask=choice2_mask)
+        outputs2 = self.roberta(choice2_id.squeeze(1),position_ids=None,token_type_ids=None,attention_mask=choice2_mask,inputs_embeds=None)
 
         choice1_roberta = self.dropout(outputs1[1])
         choice2_roberta = self.dropout(outputs2[1])
@@ -239,7 +248,7 @@ class RobertaForMultipleChoiceWithInferences(RobertaForMultipleChoice):
         sum1 = choice1_logits.sum(0)
         sum2 = choice2_logits.sum(0)
 
-        reshaped_logits = torch.cat((sum1, sum2), dim=0).to(input_ids.device)
+        reshaped_logits = torch.cat((sum1, sum2), dim=0)
         reshaped_logits = reshaped_logits.view(-1, 2)
 
         outputs = (reshaped_logits,) + outputs2[2:]
