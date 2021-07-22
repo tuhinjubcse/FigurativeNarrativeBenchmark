@@ -318,7 +318,7 @@ def load_data(in_file):
     for ex in examples:
         for inference in ex["inferences"]:
             value = inference+' @@@ '+ex["narrative"].replace("<b>", "").replace("</b>", "")+' ====== '+ex[ex["correctanswer"]]
-            arr.append(ex)
+            arr.append(value)
     return arr
 
 
