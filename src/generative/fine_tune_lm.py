@@ -74,7 +74,7 @@ class TextDataset(Dataset):
             logger.info(examples[:5])
 
             sequences = tokenizer.batch_encode_plus(
-                [inp + out for inp, out in examples], add_special_tokens=False,
+                [inp for inp in examples], add_special_tokens=False,
                 padding=True, truncation=True,
                 max_length=args.max_input_length)
 

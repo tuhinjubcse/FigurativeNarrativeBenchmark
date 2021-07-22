@@ -19,13 +19,12 @@ from src.discriminative.common import simple_accuracy, Split
 from src.discriminative.utils_multiple_choice import MultipleChoiceDataset
 # from src.discriminative.utils_multiple_choice_inferences import MultipleChoiceDataset
 
-
-os.environ["CUDA_VISIBLE_DEVICES"]='0'
+os.environ["CUDA_VISIBLE_DEVICES"]='1'
 
 def main():
     
     baseline_roberta_datadir = "/home/tuhinc/FigurativeNarrativeBenchmark/data/idioms"
-    baseline_roberta_best_checkpoint = "/home/tuhinc/FigurativeNarrativeBenchmark/output/discriminative/roberta-large/checkpoint-2406/"
+    baseline_roberta_best_checkpoint = "/home/tuhinc/FigurativeNarrativeBenchmark/output/discriminative/roberta-large/checkpoint-4010/"
     baseline_roberta_max_seq_len = 370
 
     context_roberta_datadir = "/home/tuhinc/FigurativeNarrativeBenchmark/data/idioms"

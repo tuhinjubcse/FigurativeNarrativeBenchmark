@@ -60,9 +60,10 @@ def load_data(in_file):
     Returns a list of tuples (input, output)
     """
     examples = [json.loads(line.strip()) for line in open(in_file)]
-    examples = [(ex["narrative"].replace("<b>", "").replace("</b>", ""),
-                 ex[ex["correctanswer"]] + " <eos>") for ex in examples]
-    return examples
+    arr = []
+    for ex in examples:
+        arr.append(ex["narrative"].replace("<b>", "").replace("</b>", "")+' ====== '+ex[ex["correctanswer"]])
+    return arr
 
 
 def set_seed(seed):
