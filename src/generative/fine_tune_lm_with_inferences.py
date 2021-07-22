@@ -5,7 +5,7 @@ import logging
 import argparse
 
 from src.generative.common import init_model, set_seed
-from src.generative.fine_tune_lm import load_and_cache_examples, train, evaluate
+from src.generative.fine_tune_lm import train, evaluate
 
 try:
     from torch.utils.tensorboard import SummaryWriter
@@ -18,6 +18,52 @@ logging.basicConfig(
     level=logging.DEBUG,
 )
 logger = logging.getLogger(__name__)
+
+
+class TextDataset(Dataset):
+    """
+    Saves examples with the current format, tokenized and indexed according to the LM vocabulary
+    Output: target <eos>
+    """
+    def __init__(self, tokenizer, args, file_path="train", block_size=512):
+        assert os.path.isfile(file_path)
+        directory, filename = os.path.split(file_path)
+        filename = f"{args.model_name_or_path}_cached_{block_size}_{filename}"
+
+        cached_features_file = os.path.join(directory, filename)
+
+        if os.path.exists(cached_features_file) and not args.overwrite_cache:
+            logger.info(f"Loading features from cached file {cached_features_file}")
+            with open(cached_features_file, "rb") as handle:
+                self.examples = pickle.load(handle)
+        else:
+            logger.info("Converting to token IDs")
+            examples = load_data(file_path)
+            logger.info(examples[:5])
+
+            sequences = tokenizer.batch_encode_plus(
+                [inp for inp in examples], add_special_tokens=False,
+                padding=True, truncation=True,
+                max_length=args.max_input_length)
+
+            self.examples = {
+                "examples": sequences["input_ids"],
+                "mask": sequences["attention_mask"]
+            }
+
+        logger.info(f"Saving features into cached file {cached_features_file}")
+        with open(cached_features_file, "wb") as handle:
+            pickle.dump(self.examples, handle, protocol=pickle.HIGHEST_PROTOCOL)
+
+    def __len__(self):
+        return len(self.examples["examples"])
+
+    def __getitem__(self, item):
+        return {
+            "examples": torch.tensor(self.examples["examples"][item]),
+            "input_mask": torch.tensor(self.examples["mask"][item])
+        }
+
 
 
 def main():
@@ -249,6 +295,13 @@ def main():
         results.update(result)
 
     return results
+
+
+def load_and_cache_examples(file_path, args, tokenizer):
+    """
+    Load the dataset from the cache or from the CSV file
+    """
+    return TextDataset(tokenizer, args, file_path=file_path, block_size=args.block_size)
 
 
 def load_data(in_file):
