@@ -25,12 +25,11 @@ def main():
     print("\t".join(["LM", "Decoding", "BLEU-4", "ROUGE-L", "BertScore"]))
 
     for lm in ["gpt2-xl", "gpt3", "bart-large", "t5-large"]:
-        for mode in ["", "_zeroshot", "fewshot", "_context", "_literal"]:
+        for mode in ["", "_zeroshot", "_fewshot", "_context", "_literal"]:
             for decoding in ["k5", "p0.9"]:
                 file_path = f"output/generative/{lm}{mode}_{args.set}_predictions_{decoding}.jsonl"
 
                 if not os.path.exists(file_path):
-                    print(f"File {file_path} is not found")
                     continue
 
                 data = [json.loads(line.strip()) for line in open(file_path)]

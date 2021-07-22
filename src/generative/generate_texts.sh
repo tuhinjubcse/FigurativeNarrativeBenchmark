@@ -31,10 +31,9 @@ done
 
 for lm in "${lm_models[@]}"
 do
-    mkdir output/generative/${lm}_zeroshot/;
-    python -m src.generative.generate_texts_zs \
+    python -m src.generative.generate_texts \
         --in_file data/idioms/${set}.jsonl \
-        --out_file output/generative_${lm}_zeroshot/${set}_predictions_k5.jsonl \
+        --out_file output/generative/${lm}_zeroshot_${set}_predictions_k5.jsonl \
         --model_name_or_path ${lm} \
         --k 5 \
         --temperature 0.7 \
