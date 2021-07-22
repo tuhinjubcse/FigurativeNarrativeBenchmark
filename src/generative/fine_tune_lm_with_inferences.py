@@ -260,10 +260,12 @@ def load_data(in_file):
     Returns a list of tuples (input, output)
     """
     examples = [json.loads(line.strip()) for line in open(in_file)]
-    examples = [(f'[inference] {inference} [narrative] {ex["narrative"].replace("<b>", "").replace("</b>", "")}',
-                 ex[ex["correctanswer"]] + " <eos>")
-                for ex in examples for inference in ex["inferences"]]
-    return examples
+    arr = []
+    for ex in examples:
+        for inference in ex["inferences"]:
+            value = inference+' @@@ '+ex["narrative"].replace("<b>", "").replace("</b>", "")+' ====== '+ex[ex["correctanswer"]]
+            arr.append(ex)
+    return arr
 
 
 if __name__ == "__main__":
