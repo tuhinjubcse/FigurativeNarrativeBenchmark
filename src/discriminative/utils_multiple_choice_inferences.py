@@ -123,7 +123,7 @@ class IdiomWithInferencesProcessor(DataProcessor):
         examples = [InputExample(
             example_id=str(ex_id+1),
             contexts=ex["narrative"],
-            endings=[ex["option1"], ex["option1"]],
+            endings=[ex["option1"], ex["option2"]],
             label=str(int(ex["correctanswer"][len("option"):]) - 1),
             inferences=ex["inferences"]
         ) for ex_id, ex in enumerate(examples)]
