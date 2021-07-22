@@ -27,14 +27,14 @@ class InputExample:
     Args:
         example_id: Unique id for the example.
         question: string. The untokenized text of the second sequence (question).
-        contexts: list of str. The untokenized text of the first sequence (context of corresponding question).
+        context: str. The untokenized text of the first sequence (context of corresponding question).
         endings: list of str. multiple choice's options. Its length must be equal to contexts' length.
         label: (Optional) string. The label of the example. This should be
         specified for train and dev examples, but not for test examples.
     """
     example_id: str
     inferences: List[str]
-    contexts: List[str]
+    context: str
     endings: List[str]
     label: Optional[str]
 
@@ -122,7 +122,7 @@ class IdiomWithInferencesProcessor(DataProcessor):
         """Creates examples for the training and dev sets."""
         examples = [InputExample(
             example_id=str(ex_id+1),
-            contexts=[ex["narrative"].replace('<b>','').replace('</b>','')]*len(ex["inferences"]),
+            context=ex["narrative"].replace('<b>', '').replace('</b>', ''),
             endings=[ex["option1"], ex["option2"]],
             label=str(int(ex["correctanswer"][len("option"):]) - 1),
             inferences=ex["inferences"]
@@ -145,47 +145,25 @@ def convert_examples_to_features(examples: List[InputExample],
         if ex_index % 10000 == 0:
             logger.info("Writing example %d of %d" % (ex_index, len(examples)))
 
-        choices_inputs = []
-        endings = example.endings
-
-        # Loop for two choices, ending is an array of size 2
-        for choice in endings:
-            # Loops for all inferences
-            allinferencesinputid = []
-            allinferencesattmask = []
-            arr = []
-
-            for idx, (context, inference) in enumerate(zip(example.contexts, example.inferences)):
-                inference = inference.replace('personx', '').lstrip()
-                arr.append(inference)
-                text_a = " </s> ".join((context, inference))
-                text_b = choice
-
-                inputs = tokenizer(text_a,
-                    text_b,
-                    add_special_tokens=True,
-                    max_length=max_length,
-                    padding="max_length",
-                    truncation=True,
-                    return_overflowing_tokens=True,
-                )
-
-                # Eventually this becomes [CLS] context [SEP] inference [SEP] choice
-                allinferencesinputid.append(inputs['input_ids'])
-                allinferencesattmask.append(inputs['attention_mask'])
-
-            choices_inputs.append({'input_ids': allinferencesinputid, 'attention_mask': allinferencesattmask})
-
         label = label_map[example.label]
 
-        input_ids = [x["input_ids"] for x in choices_inputs]
+        # First, tokenize all sequences together, so we can pad according to the longest sequence
+        tokenized = tokenizer.batch_encode_plus(
+            [(" </s> ".join((example.context, inference.replace('personx', '').strip())), choice)
+             for choice in example.endings
+             for inference in example.inferences],
+            add_special_tokens=True, padding=True, truncation=True, return_overflowing_tokens=True)
 
+        # List of num_choices * Tokenizer outputs of num_inferences
+        num_sequences = len(tokenized["input_ids"])
+        choice_split = int(num_sequences/2)
+        input_ids = [tokenized["input_ids"][:choice_split], tokenized["input_ids"][choice_split:]]
         attention_mask = (
-            [x["attention_mask"] for x in choices_inputs] if "attention_mask" in choices_inputs[0] else None
-        )
+            [tokenized["attention_mask"][:choice_split], tokenized["attention_mask"][choice_split:]]
+            if "attention_mask" in tokenized else None)
         token_type_ids = (
-            [x["token_type_ids"] for x in choices_inputs] if "token_type_ids" in choices_inputs[0] else None
-        )
+            [tokenized["token_type_ids"][:choice_split], tokenized["token_type_ids"][choice_split:]]
+            if "token_type_ids" in tokenized else None)
 
         features.append(
             InputFeatures(
@@ -220,29 +198,18 @@ class RobertaForMultipleChoiceWithInferences(RobertaForMultipleChoice):
         output_attentions=None,
         output_hidden_states=None,
     ):
-        # Choice 1
-        choice1_id = input_ids[0][0]
-        choice1_mask = attention_mask[0][0]
-        outputs1 = self.roberta(choice1_id.squeeze(1), attention_mask=choice1_mask)
+        # Inputs are [batch_size=1, num_choices, num_inferences, max_len]
 
-        # Choice 2
-        choice2_id = input_ids[0][1]
-        choice2_mask = attention_mask[0][1]
-        outputs2 = self.roberta(choice2_id.squeeze(1), attention_mask=choice2_mask)
+        # Compute the embeddings of each choice: list of num_choices [num_inferences, emb_dim]
+        embeddings = [self.roberta(input_ids[0, i], attention_mask=attention_mask[0, i]) for i in range(2)]
 
-        choice1_roberta = self.dropout(outputs1[1])
-        choice2_roberta = self.dropout(outputs2[1])
+        # Predict the logits for each choice -> list of num_choices [1]
+        scores = [self.classifier(self.dropout(emb.pooler_output)).sum(0) for emb in embeddings]
 
-        choice1_logits = self.classifier(choice1_roberta)
-        choice2_logits = self.classifier(choice2_roberta)
+        # Concatenate all the scores to get the score per choice -> [1, num_choices]
+        reshaped_logits = torch.cat(scores, dim=0).unsqueeze(0)
 
-        sum1 = choice1_logits.sum(0)
-        sum2 = choice2_logits.sum(0)
-
-        reshaped_logits = torch.cat((sum1, sum2), dim=0).to(input_ids.device)
-        reshaped_logits = reshaped_logits.view(-1, 2)
-
-        outputs = (reshaped_logits,) + outputs2[2:]
+        outputs = (reshaped_logits,) + embeddings[1][2:]
 
         if labels is not None:
             loss_fct = CrossEntropyLoss()
