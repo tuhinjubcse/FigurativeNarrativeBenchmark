@@ -134,8 +134,8 @@ class IdiomProcessor(DataProcessor):
         examples = [InputExample(
             example_id=str(ex_id+1),
             question="",
-            contexts=ex["narrative"],
-            endings=[ex["option1"], ex["option1"]],
+            contexts=[ex["narrative"].replace('<b>','').replace('</b>',''),ex["narrative"].replace('<b>','').replace('</b>','')],
+            endings=[ex["option1"], ex["option2"]],
             label=str(int(ex["correctanswer"][len("option"):]) - 1),
         ) for ex_id, ex in enumerate(examples)]
 
@@ -157,12 +157,8 @@ def convert_examples_to_features(
         choices_inputs = []
         for ending_idx, (context, ending) in enumerate(zip(example.contexts, example.endings)):
             text_a = context
-            if example.question.find("_") != -1:
-                # this is for cloze question
-                text_b = example.question.replace("_", ending)
-            else:
-                text_b = example.question + " " + ending
-
+            text_b = ending
+            print(text_a, '||', text_b)
             inputs = tokenizer(
                 text_a,
                 text_b,
