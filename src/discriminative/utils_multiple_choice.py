@@ -135,7 +135,7 @@ class IdiomProcessor(DataProcessor):
             example_id=str(ex_id+1),
             question="",
             contexts=ex["narrative"],
-            endings=[ex["option1"], ex["option1"]],
+            endings=[ex["option1"], ex["option2"]],
             label=str(int(ex["correctanswer"][len("option"):]) - 1),
         ) for ex_id, ex in enumerate(examples)]
 
