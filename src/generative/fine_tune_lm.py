@@ -74,7 +74,7 @@ class TextDataset(Dataset):
             logger.info(examples[:5])
 
             sequences = tokenizer.batch_encode_plus(
-                [inp for inp in examples], add_special_tokens=False,
+                [" ====== ".join((inp, out)) for inp, out in examples], add_special_tokens=False,
                 padding=True, truncation=True,
                 max_length=args.max_input_length)
 
@@ -489,7 +489,7 @@ def train(args, train_dataset, model, tokenizer, loss_fnc=get_loss, eval_dataset
 
     model.zero_grad()
     train_iterator = trange(epochs_trained, int(args.num_train_epochs), desc="Epoch")
-    set_seed(args.seed)
+    set_seed(args)  # Added here for reproducibility
 
     for _ in train_iterator:
         epoch_iterator = tqdm(train_dataloader, desc="Iteration")

@@ -113,10 +113,9 @@ def main() -> None:
 
     with open(args.out_file, "w") as f_out:
         for narrative, curr_golds in tqdm.tqdm(gold.items()):
-
             input_text = narrative
-            if args.is_zero_shot:
-                input_text = input_text.replace("<b>", "").replace("</b>", "").replace("<eos>", "").strip()
+            if not args.is_zero_shot and not args.is_encoder_decoder:
+                input_text += " ====== "
 
             try:
                 preds = generate(
