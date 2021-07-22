@@ -9,7 +9,7 @@ from typing import List, Optional
 from dataclasses import dataclass
 from torch.nn import CrossEntropyLoss
 from torch.utils.data.dataset import Dataset
-from transformers import RobertaForMultipleChoice
+from transformers import BertPreTrainedModel,RobertaConfig,RobertaModel
 from transformers.data.processors.utils import DataProcessor
 
 from src.discriminative.common import Split
@@ -165,6 +165,8 @@ def convert_examples_to_features(examples: List[InputExample],
             [tokenized["token_type_ids"][:choice_split], tokenized["token_type_ids"][choice_split:]]
             if "token_type_ids" in tokenized else None)
 
+        print(torch.tensor(input_ids).shape)
+
         features.append(
             InputFeatures(
                 example_id=example.example_id,
@@ -182,9 +184,16 @@ def convert_examples_to_features(examples: List[InputExample],
     return features
 
 
-class RobertaForMultipleChoiceWithInferences(RobertaForMultipleChoice):
+class RobertaForMultipleChoiceWithInferences(BertPreTrainedModel):
+    config_class = RobertaConfig
+    base_model_prefix = "roberta"
+
     def __init__(self, config):
         super().__init__(config)
+        self.roberta = RobertaModel(config)
+        self.dropout = torch.nn.Dropout(config.hidden_dropout_prob)
+        self.classifier = torch.nn.Linear(config.hidden_size, 1)
+        self.init_weights()
 
     def forward(
         self,

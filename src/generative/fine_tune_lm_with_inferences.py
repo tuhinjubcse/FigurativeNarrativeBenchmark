@@ -3,6 +3,7 @@ import json
 import torch
 import logging
 import argparse
+import pickle
 
 from src.generative.common import init_model, set_seed
 from src.generative.fine_tune_lm import train, evaluate
