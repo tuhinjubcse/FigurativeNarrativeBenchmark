@@ -6,6 +6,7 @@ import argparse
 
 from src.generative.common import init_model, set_seed
 from src.generative.fine_tune_lm import train, evaluate
+from torch.utils.data import DataLoader, Dataset, RandomSampler, SequentialSampler
 
 try:
     from torch.utils.tensorboard import SummaryWriter
