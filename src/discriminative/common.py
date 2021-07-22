@@ -39,7 +39,11 @@ class DataTrainingArguments:
 
 
 def simple_accuracy(preds, labels):
-    return (preds == labels).mean()
+    count = 0
+    for a,b in zip(preds,labels):
+        if a==b:
+            count = count+1
+    return 100*(float(count)/float(len(preds)))
 
 
 class Split(Enum):
