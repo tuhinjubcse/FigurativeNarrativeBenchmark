@@ -31,7 +31,7 @@ done
 
 for lm in "${lm_models[@]}"
 do
-    mkdir output/generative/idioms/${lm}_zeroshot/;
+    mkdir output/generative/${lm}_zeroshot/;
     python -m src.generative.generate_texts_zs \
         --in_file data/idioms/${set}.jsonl \
         --out_file output/generative_${lm}_zeroshot/${set}_predictions_k5.jsonl \

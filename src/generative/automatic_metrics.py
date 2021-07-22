@@ -24,8 +24,7 @@ def main():
 
     print("\t".join(["LM", "Decoding", "BLEU-4", "ROUGE-L", "BertScore"]))
 
-    for lm in ["openai-gpt", "gpt2", "gpt2-medium", "gpt2-large", "gpt2-xl", "gpt3",
-               "bart-base", "bart-large", "t5-small", "t5-base", "t5-large"]:
+    for lm in ["gpt2-xl", "gpt3", "bart-large", "t5-large"]:
         for mode in ["", "_zeroshot", "fewshot", "_context", "_literal"]:
             for decoding in ["k5", "p0.9"]:
                 file_path = f"output/generative/{lm}{mode}_{args.set}_predictions_{decoding}.jsonl"
