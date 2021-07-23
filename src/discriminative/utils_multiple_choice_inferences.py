@@ -116,7 +116,7 @@ class IdiomWithInferencesProcessor(DataProcessor):
 
     def get_labels(self):
         """See base class."""
-        return ["0", "1"]
+        return ["option1", "option2"]
 
     def _create_examples(self, examples):
         """Creates examples for the training and dev sets."""
@@ -124,7 +124,7 @@ class IdiomWithInferencesProcessor(DataProcessor):
             example_id=str(ex_id+1),
             context=ex["narrative"].replace('<b>', '').replace('</b>', ''),
             endings=[ex["option1"], ex["option2"]],
-            label=str(int(ex["correctanswer"][len("option"):]) - 1),
+            label=ex["correctanswer"],
             inferences=ex["inferences"]
         ) for ex_id, ex in enumerate(examples)]
 
@@ -165,8 +165,6 @@ def convert_examples_to_features(examples: List[InputExample],
             [tokenized["token_type_ids"][:choice_split], tokenized["token_type_ids"][choice_split:]]
             if "token_type_ids" in tokenized else None)
 
-        print(torch.tensor(input_ids).shape)
-
         features.append(
             InputFeatures(
                 example_id=example.example_id,
@@ -191,7 +189,6 @@ class RobertaForMultipleChoiceWithInferences(BertPreTrainedModel):
     def __init__(self, config):
         super().__init__(config)
         self.roberta = RobertaModel(config)
-        self.dropout = torch.nn.Dropout(config.hidden_dropout_prob)
         self.classifier = torch.nn.Linear(config.hidden_size, 1)
         self.init_weights()
 
@@ -213,7 +210,7 @@ class RobertaForMultipleChoiceWithInferences(BertPreTrainedModel):
         embeddings = [self.roberta(input_ids[0, i], attention_mask=attention_mask[0, i]) for i in range(2)]
 
         # Predict the logits for each choice -> list of num_choices [1]
-        scores = [self.classifier(self.dropout(emb.pooler_output)).sum(0) for emb in embeddings]
+        scores = [self.classifier(emb.pooler_output).sum(0) for emb in embeddings]
 
         # Concatenate all the scores to get the score per choice -> [1, num_choices]
         reshaped_logits = torch.cat(scores, dim=0).unsqueeze(0)
