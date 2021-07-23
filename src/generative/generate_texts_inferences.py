@@ -108,25 +108,23 @@ def main() -> None:
     model.eval()
     examples = [json.loads(line.strip()) for line in open(args.in_file)]
 
-    # Group continuations of the same narrative
+    # Group continuations and inferences of the same narrative
     gold = defaultdict(list)
     [gold[ex["narrative"]].append(ex[ex["correctanswer"]] + " <eos>") for ex in examples]
+    inferences = {ex["narrative"]: ex["inferences"] for ex in examples}
 
     with open(args.out_file, "w") as f_out:
-        for ex in tqdm.tqdm(examples):
-            narrative = ex["narrative"]
-            curr_golds = gold[narrative]
+        for narrative, curr_golds in tqdm.tqdm(gold.items()):
+            curr_inferences = inferences[narrative]
             torch.cuda.empty_cache()
-            preds = generate_from_multiple_inferences(tokenizer, model, args, ex, device)
+            preds = generate_from_multiple_inferences(tokenizer, model, args, narrative, curr_inferences, device)
             f_out.write(json.dumps({"input": narrative, "gold": curr_golds, "predictions": preds}) + "\n")
 
 
-def generate_from_multiple_inferences(tokenizer, model, args, ex, device):
+def generate_from_multiple_inferences(tokenizer, model, args, narrative, inferences, device):
     """
     Generate a text by averaging the logits of all inputs
     """
-    narrative = ex["narrative"]
-
     # Embed all inputs (narrative + inference) and average them
     inputs = tokenizer([
         f'[inference] {inference} [narrative] {narrative.replace("<b>", "").replace("</b>", "")}'
