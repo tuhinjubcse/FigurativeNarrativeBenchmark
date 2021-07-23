@@ -39,11 +39,7 @@ class DataTrainingArguments:
 
 
 def simple_accuracy(preds, labels):
-    count = 0
-    for a,b in zip(preds,labels):
-        if a==b:
-            count = count+1
-    return 100*(float(count)/float(len(preds)))
+    return 100.0 * sum([1 if p == g else 0 for p, g in zip(preds, labels)]) / len(preds)
 
 
 class Split(Enum):

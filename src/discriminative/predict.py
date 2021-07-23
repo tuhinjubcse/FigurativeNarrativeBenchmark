@@ -13,7 +13,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 from src.discriminative.common import simple_accuracy, Split
-from transformers import AutoModelForMultipleChoice, AutoTokenizer
+from transformers import AutoTokenizer, RobertaForMultipleChoice
+from src.discriminative.utils_multiple_choice_inferences import RobertaForMultipleChoiceWithInferences
 
 
 def main():
@@ -55,11 +56,13 @@ def main():
 
     if args.task_name == "idiom":
         from src.discriminative.utils_multiple_choice import MultipleChoiceDataset
+        model_class = RobertaForMultipleChoice
     else:
         from src.discriminative.utils_multiple_choice_inferences import MultipleChoiceDataset
+        model_class = RobertaForMultipleChoiceWithInferences
 
     tokenizer = AutoTokenizer.from_pretrained(args.model_dir)
-    model = AutoModelForMultipleChoice.from_pretrained(args.model_dir)
+    model = model_class.from_pretrained(args.model_dir)
     model = model.cuda()
     model = model.eval()
     
@@ -73,17 +76,17 @@ def main():
 
     for dataset, name in zip([dev, test], ["dev", "test"]):
         logger.info(f"Predicting the {name} set")
+        gold = [int(dataset.features[i].label) for i in range(len(dataset.features))]
         logits = get_logits(model, dataset)
-        gold = [dataset.features[i].label for i in range(len(dataset.features))]
-        predictions = [np.argmax(ctx_p) for ctx_p in logits]
+        predictions = np.argmax(logits, axis=-1).squeeze().tolist()
         accuracy = simple_accuracy(predictions, gold)
-        logger.info(f"{name[0].upper() + name[1:]} accuracy {accuracy*100.0:.1f}")
+        logger.info(f"{name[0].upper() + name[1:]} accuracy {accuracy:.1f}")
 
         # Save the predictions to a file
         with open(f"{args.out_prediction_dir}/{name}_predictions.jsonl", "w") as f_out:
             with open(f"{args.data_dir}/{name}.jsonl") as f_in:
                 for line, pred in zip(f_in, predictions):
-                    ex = json.load(line)
+                    ex = json.loads(line)
                     ex["prediction"] = pred
                     f_out.write(json.dumps(ex) + "\n")
 
@@ -96,10 +99,9 @@ def get_logits(model, examples):
     with torch.no_grad():
         logits = [
             model(input_ids=torch.Tensor([examples.features[i].input_ids]).long().cuda(),
-                  attention_mask=torch.Tensor([examples.features[i].attention_mask]).long().cuda()).\
-                logits.cpu().numpy()
+                  attention_mask=torch.Tensor([examples.features[i].attention_mask]).long().cuda())[0].cpu().numpy()
             for i in tqdm.tqdm(range(len(examples.features)))]
-    
+
     return logits
 
 

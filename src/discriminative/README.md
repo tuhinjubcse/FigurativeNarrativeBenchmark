@@ -23,6 +23,15 @@ python -m src.discriminative.combine_context_and_literal \
 
 where `device` is a GPU device number or -1 for CPU.
 
+To predict the dev/test set:
+
+```
+python -m src.discriminative.predict --data_dir [data_dir] \
+                                     --model_dir [model_dir] \
+                                     --out_prediction_dir [model_dir] \
+                                     --task_name [idiom/idiom_inferences]
+```
+
 ## Zero-shot baseline 
 
 ### UnifiedQA
