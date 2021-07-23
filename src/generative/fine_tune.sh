@@ -79,7 +79,7 @@ do
      python -m src.generative.fine_tune_lm_with_inferences \
              --train_file data/idioms_inferences_${knowledge_type}/train.jsonl \
              --eval_data_file data/idioms_inferences_${knowledge_type}/dev.jsonl \
-             --out_dir output/generative/gpt2-large_${knowledge_type} \
+             --out_dir output/generative/gpt2-xl${knowledge_type} \
              --model_name_or_path gpt2-xl \
              --device ${device} \
              --do_train \
