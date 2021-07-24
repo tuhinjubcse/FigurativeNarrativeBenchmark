@@ -11,6 +11,8 @@ logging.basicConfig(
     level=logging.INFO,
 )
 logger = logging.getLogger(__name__)
+import os
+os.environ["CUDA_VISIBLE_DEVICES"]="1"
 
 from src.discriminative.common import simple_accuracy, Split
 from transformers import AutoTokenizer, RobertaForMultipleChoice

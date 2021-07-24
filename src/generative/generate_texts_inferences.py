@@ -4,7 +4,7 @@ import torch
 import logging
 import argparse
 import pickle
-
+from nltk.corpus import words
 from collections import defaultdict
 from transformers.generation_utils import top_k_top_p_filtering
 
@@ -178,6 +178,16 @@ def generate_from_multiple_inferences(tokenizer, model, args, narrative, inferen
     # Remove periods and spaces in the beginning
     pred = [p.strip() for p in pred.split(".") if len(p) > 0]
     pred = pred[0] if len(pred) > 0 else ""
+    if '?' in pred:
+        pred = pred.split('?')[0]
+    pred = pred.replace(' i ',' I ').capitalize()
+
+    l_words = pred.split()
+    last_word = l_words[-1]
+    if last_word[-1].isalpha() and last_word not in words.words():
+        while last_word not in words.words():
+            last_word  = last_word[:-1]
+    pred = pred.replace(l_words[-1],last_word)
     return [pred]
 
 
