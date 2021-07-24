@@ -7,7 +7,7 @@ import pickle
 from nltk.corpus import words
 from collections import defaultdict
 from transformers.generation_utils import top_k_top_p_filtering
-
+from wordfreq import zipf_frequency
 
 logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(name)s -   %(message)s",
@@ -184,10 +184,10 @@ def generate_from_multiple_inferences(tokenizer, model, args, narrative, inferen
 
     l_words = pred.split()
     last_word = l_words[-1]
-    if last_word[-1].isalpha() and last_word not in words.words():
-        while last_word not in words.words():
+    if last_word[-1].isalpha() and last_word not in words.words() and zipf_frequency(last_word, 'en')==0:
+        while (last_word not in words.words() or (zipf_frequency(last_word, 'en')==0)):
             last_word  = last_word[:-1]
-    pred = pred.replace(l_words[-1],last_word)
+    pred = pred.replace(l_words[-1],last_word).replace('======','').replace(' i ',' I ')
     return [pred]
 
 
