@@ -59,18 +59,19 @@ for knowledge_type in "${knowledge_types2[@]}"
 do
     CUDA_VISIBLE_DEVICES=${device} python -m src.discriminative.run_multiple_choice \
         --data_dir data/idioms_inferences_${knowledge_type}/ \
-        --output_dir output/discriminative/${lm}_inferences_${knowledge_type} \
+        --output_dir output/discriminative/${lm}_inferences_${knowledge_type}_dropout \
         --task_name idiom_inferences \
         --model_name_or_path ${lm} \
         --do_train \
         --do_eval \
+	--gradient_accumulation_steps 16 \
         --evaluation_strategy steps \
         --max_seq_length 390  \
         --overwrite_cache \
         --num_train_epochs 10 \
-        --logging_steps 1068 \
-        --save_steps 1068 \
-        --eval_steps 1068 \
+        --logging_steps 200 \
+        --save_steps 200 \
+        --eval_steps 200 \
         --per_device_train_batch_size 1 \
         --per_device_eval_batch_size 1 \
         --learning_rate 1e-5 ;
