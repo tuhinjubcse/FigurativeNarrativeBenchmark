@@ -189,6 +189,7 @@ class RobertaForMultipleChoiceWithInferences(BertPreTrainedModel):
     def __init__(self, config):
         super().__init__(config)
         self.roberta = RobertaModel(config)
+        self.dropout = torch.nn.Dropout(config.hidden_dropout_prob)
         self.classifier = torch.nn.Linear(config.hidden_size, 1)
         self.init_weights()
 
