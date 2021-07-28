@@ -1,6 +1,7 @@
 # Discriminative Models
 
 ## Supervised baseline and knowledge-enhanced models
+Comment the remaining before running one
 
 ```bash
 bash src/discriminative/fine_tune.sh [device] 
