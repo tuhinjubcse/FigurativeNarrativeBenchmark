@@ -550,8 +550,8 @@ class BoolQPVP(PVP):
 
 class MultiRcPVP(PVP):
     VERBALIZER = {
-        "0": ["No"],
-        "1": ["Yes"]
+        "0": ["Wrong"],
+        "1": ["Right"]
     }
 
     def get_parts(self, example: InputExample) -> FilledPattern:
@@ -564,8 +564,8 @@ class MultiRcPVP(PVP):
         if self.pattern_id == 1:
             return [passage, '. Question: ', question, '? Is the correct answer "', answer, '"?', self.mask, '.'], []
         if self.pattern_id == 2:
-            return [passage, '. Based on the previous passage, ', question, '? Is "', answer, '" a correct answer?',
-                    self.mask, '.'], []
+            return [passage,'.',answer,'.','You are',self.mask,'.'],[]
+            #return [passage, '. Question: ', question, ' Is "', answer, '" a plausible next sentence?',self.mask, '.'], []
         if self.pattern_id == 3:
             return [passage, question, '- [', self.mask, ']', answer], []
 
