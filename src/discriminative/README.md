@@ -58,7 +58,7 @@ TBD
 ### GPT-3
 
 ```
-python -m src.generative.gpt3_few_shot \
+python -m src.discriminative.gpt3_few_shot \
         --openai_api_key [api_key] \
         --train_file data/idioms/train.jsonl \
         --eval_file data/idioms/[set].jsonl \
