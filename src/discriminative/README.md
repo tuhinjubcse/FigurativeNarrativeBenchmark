@@ -60,6 +60,7 @@ TBD
 ```
 python -m src.generative.gpt3_few_shot \
         --openai_api_key [api_key] \
+        --train_file data/idioms/train.jsonl \
         --eval_file data/idioms/[set].jsonl \
         --out_prediction_file output/discriminative/gpt3_fewshot_[set]_predictions_p0.9.jsonl;
 ```
