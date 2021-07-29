@@ -157,7 +157,6 @@ def generate_conditional(tokenizer, model, args, input, device):
         num_return_sequences=max(1, args.beams)
     ).tolist()
 
-    preds = [pred[:pred.index(tokenizer.eos_token_id)] if tokenizer.eos_token_id in pred else pred for pred in preds]
     preds = tokenizer.batch_decode(preds, skip_special_tokens=True)
     preds = [pred.split(".")[0] for pred in preds]
     return preds
