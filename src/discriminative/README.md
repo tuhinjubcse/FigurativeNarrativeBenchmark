@@ -4,8 +4,10 @@
 Comment the remaining before running one
 
 ```bash
-bash src/discriminative/fine_tune.sh [device] 
+bash src/discriminative/fine_tune.sh [device] [task]
 ```
+
+where `task` is in {idiom, simile}.
 
 ## Combination
 
@@ -30,7 +32,7 @@ To predict the dev/test set:
 python -m src.discriminative.predict --data_dir [data_dir] \
                                      --model_dir [model_dir] \
                                      --out_prediction_dir [model_dir] \
-                                     --task_name [idiom/idiom_inferences]
+                                     --task_name [idiom/idiom_inferences/simile/simile_inference]
 ```
 
 ## Zero-shot baseline 

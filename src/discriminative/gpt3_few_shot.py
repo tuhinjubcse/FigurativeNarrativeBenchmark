@@ -4,6 +4,8 @@ import openai
 import logging
 import argparse
 
+from sklearn.metrics import accuracy_score
+
 logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(name)s - %(message)s",
     datefmt="%m/%d/%Y %H:%M:%S",
@@ -70,9 +72,13 @@ def main():
 
     # Save the predictions
     with open(args.out_prediction_file, "w") as f_out:
-        for ex, pred in zip(test_examples, predictions):
-            ex = {"input": ex["narrative"], "gold": golds[ex["narrative"]], "predictions": [pred]}
+        for ex, pred, gold in zip(test_examples, predictions, golds):
+            ex = {"input": ex["narrative"], "gold": gold, "predictions": [pred]}
             f_out.write(json.dumps(ex) + "\n")
+
+    # Compute accuracy
+    accuracy = accuracy_score(golds, predictions)
+    logger.info(f"Accuracy: {accuracy*100.0:.1f}")
 
 
 def create_prompt(ex, include_answer=False):
@@ -81,7 +87,7 @@ def create_prompt(ex, include_answer=False):
     """
     narrative = ex["narrative"].replace('<b>', '').replace('</b>', '')
     q = f"Q: {narrative}\n(1) {ex['option1']}\n(2) {ex['option2']}\n"
-    a = "A: {MAPPING[ex['correctanswer']]}\n###\n" if include_answer else "A:"
+    a = f"A: {MAPPING[ex['correctanswer']]}\n###\n" if include_answer else "A:"
     return q + a
 
 

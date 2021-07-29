@@ -14,6 +14,8 @@ rouge = Rouge()
 def main():
     parser = argparse.ArgumentParser()
 
+    parser.add_argument("--task", type=str, required=True, help="idiom / simile")
+
     # Optional arguments
     parser.add_argument("--set", default="test", type=str, help="Which set to evaluate.")
     parser.add_argument("--device", type=int, required=False, help="CUDA device number or -1 for CPU", default=-1)
@@ -27,7 +29,7 @@ def main():
     for lm in ["gpt2-xl", "gpt3", "bart-large", "t5-large"]:
         for mode in ["", "_zeroshot", "_fewshot", "_context", "_literal"]:
             for decoding in ["k5", "p0.9"]:
-                file_path = f"output/generative/{lm}{mode}_{args.set}_predictions_{decoding}.jsonl"
+                file_path = f"output/{args.task}/generative/{lm}{mode}_{args.set}_predictions_{decoding}.jsonl"
 
                 if not os.path.exists(file_path):
                     continue
