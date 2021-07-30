@@ -27,7 +27,7 @@ class DataTrainingArguments:
     task_name: str = field(metadata={"help": "The name of the task to train on"})
     data_dir: str = field(metadata={"help": "Should contain the data files for the task."})
     max_seq_length: int = field(
-        default=128,
+        default=390,
         metadata={
             "help": "The maximum total input sequence length after tokenization. Sequences longer "
             "than this will be truncated, sequences shorter will be padded."

@@ -130,6 +130,45 @@ class IdiomWithInferencesProcessor(DataProcessor):
 
         return examples
 
+class SimileWithInferencesProcessor(DataProcessor):
+    """Processor for the Idiom data set with inferences."""
+    def get_example_from_tensor_dict(self, tensor_dict):
+        pass
+
+    def get_train_examples(self, data_dir):
+        """See base class."""
+        logger.info(f"LOOKING AT {data_dir} train")
+        examples = [json.loads(line) for line in open(os.path.join(data_dir, f"train.jsonl"))]
+        return self._create_examples(examples)
+
+    def get_dev_examples(self, data_dir):
+        """See base class."""
+        logger.info(f"LOOKING AT {data_dir} dev")
+        examples = [json.loads(line) for line in open(os.path.join(data_dir, f"dev.jsonl"))]
+        return self._create_examples(examples)
+
+    def get_test_examples(self, data_dir):
+        """See base class."""
+        logger.info(f"LOOKING AT {data_dir} test")
+        examples = [json.loads(line) for line in open(os.path.join(data_dir, f"test.jsonl"))]
+        return self._create_examples(examples)
+
+    def get_labels(self):
+        """See base class."""
+        return ["option1", "option2"]
+
+    def _create_examples(self, examples):
+        """Creates examples for the training and dev sets."""
+        examples = [InputExample(
+            example_id=str(ex_id+1),
+            context=ex["narrative"].replace('<b>', '').replace('</b>', ''),
+            endings=[ex["option1"], ex["option2"]],
+            label=ex["correctanswer"],
+            inferences=ex["inferences"]
+        ) for ex_id, ex in enumerate(examples)]
+
+        return examples
+
 
 def convert_examples_to_features(examples: List[InputExample],
                                  label_list: List[str],
@@ -149,7 +188,7 @@ def convert_examples_to_features(examples: List[InputExample],
 
         # First, tokenize all sequences together, so we can pad according to the longest sequence
         tokenized = tokenizer.batch_encode_plus(
-            [(" </s> ".join((example.context, inference.replace('personx', '').strip())), choice)
+            [(" </s> ".join((example.context, inference.replace('personx', 'they').strip())), choice)
              for choice in example.endings
              for inference in example.inferences],
             add_special_tokens=True, padding=True, truncation=True, return_overflowing_tokens=True)
@@ -227,4 +266,5 @@ class RobertaForMultipleChoiceWithInferences(BertPreTrainedModel):
 
 
 processors = {"idiom_inferences": IdiomWithInferencesProcessor}
-MULTIPLE_CHOICE_TASKS_NUM_LABELS = {"idiom_inferences", 2}
+processors = {"simile_inferences": IdiomWithInferencesProcessor}
+MULTIPLE_CHOICE_TASKS_NUM_LABELS = {"idiom_inferences", 2, "simile_inferences", 2}

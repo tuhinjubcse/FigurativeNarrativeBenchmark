@@ -141,6 +141,45 @@ class IdiomProcessor(DataProcessor):
 
         return examples
 
+class SimileProcessor(DataProcessor):
+    """Processor for the idiom data set."""
+    def get_example_from_tensor_dict(self, tensor_dict):
+        pass
+
+    def get_train_examples(self, data_dir):
+        """See base class."""
+        logger.info(f"LOOKING AT {data_dir} train")
+        examples = [json.loads(line) for line in open(os.path.join(data_dir, f"train.jsonl"))]
+        return self._create_examples(examples)
+
+    def get_dev_examples(self, data_dir):
+        """See base class."""
+        logger.info(f"LOOKING AT {data_dir} dev")
+        examples = [json.loads(line) for line in open(os.path.join(data_dir, f"dev.jsonl"))]
+        return self._create_examples(examples)
+
+    def get_test_examples(self, data_dir):
+        """See base class."""
+        logger.info(f"LOOKING AT {data_dir} test")
+        examples = [json.loads(line) for line in open(os.path.join(data_dir, f"test.jsonl"))]
+        return self._create_examples(examples)
+
+    def get_labels(self):
+        """See base class."""
+        return ["0", "1"]
+
+    def _create_examples(self, examples):
+        """Creates examples for the training and dev sets."""
+        examples = [InputExample(
+            example_id=str(ex_id+1),
+            question="",
+            contexts=[ex["narrative"].replace('<b>','').replace('</b>',''),ex["narrative"].replace('<b>','').replace('</b>','')],
+            endings=[ex["option1"], ex["option2"]],
+            label=str(int(ex["correctanswer"][len("option"):]) - 1),
+        ) for ex_id, ex in enumerate(examples)]
+
+        return examples
+
 
 def convert_examples_to_features(
     examples: List[InputExample], label_list: List[str], max_length: int, tokenizer: PreTrainedTokenizer,
@@ -204,5 +243,5 @@ def convert_examples_to_features(
     return features
 
 
-processors = {"idiom": IdiomProcessor}
-MULTIPLE_CHOICE_TASKS_NUM_LABELS = {"idiom", 2}
+processors = {"idiom": IdiomProcessor,"simile": SimileProcessor}
+MULTIPLE_CHOICE_TASKS_NUM_LABELS = {"idiom", 2, "simile", 2}

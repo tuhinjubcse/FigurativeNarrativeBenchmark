@@ -54,7 +54,7 @@ def main():
     # Set seed
     set_seed(training_args.seed)
 
-    if data_args.task_name == "idiom":
+    if data_args.task_name in ["idiom","simile"]:
         from src.discriminative.utils_multiple_choice import MultipleChoiceDataset
         model_class = RobertaForMultipleChoice
     else:
