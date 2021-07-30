@@ -59,9 +59,11 @@ def main():
     if args.task_name == "idiom":
         from src.discriminative.utils_multiple_choice import MultipleChoiceDataset
         model_class = RobertaForMultipleChoice
+        maxlen = 370
     else:
         from src.discriminative.utils_multiple_choice_inferences import MultipleChoiceDataset
         model_class = RobertaForMultipleChoiceWithInferences
+        maxlen = None
 
     tokenizer = AutoTokenizer.from_pretrained(args.model_dir)
     model = model_class.from_pretrained(args.model_dir)
@@ -71,10 +73,10 @@ def main():
     # Load the datasets
     logger.info("Loading the datasets")
     dev = MultipleChoiceDataset(
-        data_dir=args.data_dir, tokenizer=tokenizer, task=args.task_name, mode=Split.dev)
+        data_dir=args.data_dir, tokenizer=tokenizer, task=args.task_name, max_seq_length=maxlen, mode=Split.dev)
 
     test = MultipleChoiceDataset(
-        data_dir=args.data_dir, tokenizer=tokenizer, task=args.task_name, mode=Split.test)
+        data_dir=args.data_dir, tokenizer=tokenizer, task=args.task_name, max_seq_length=maxlen, mode=Split.test)
 
     for dataset, name in zip([dev, test], ["dev", "test"]):
         logger.info(f"Predicting the {name} set")
@@ -103,6 +105,8 @@ def get_logits(model, examples):
             model(input_ids=torch.Tensor([examples.features[i].input_ids]).long().cuda(),
                   attention_mask=torch.Tensor([examples.features[i].attention_mask]).long().cuda())[0].cpu().numpy()
             for i in tqdm.tqdm(range(len(examples.features)))]
+        
+        logits = [np.array([a[0]]) for a in logits]   
 
     return logits
 
