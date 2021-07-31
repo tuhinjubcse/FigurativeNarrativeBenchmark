@@ -72,6 +72,10 @@ where `set` is in {dev, test}.
 ### PET
 
                 cd src/discriminative/pet
-                CUDA_VISIBLE_DEVICES=6 python cli.py --method pet --pattern_ids 2 --sc_max_seq_length 512 --pet_max_seq_length 512 --data_dir /home/tuhinc/src/discriminative/pet/simile/ --model_type albert --model_name_or_path albert-xxlarge-v2 --task_name multirc --output_dir /home/tuhinc/pet/petmodelsfewshotsimile/output/ --do_eval --do_train
+                
+                CUDA_VISIBLE_DEVICES=6 python cli.py --method pet --pattern_ids 2 \
+                --sc_max_seq_length 512 --pet_max_seq_length 512 --data_dir src/discriminative/pet/simile/\
+                --model_type albert --model_name_or_path albert-xxlarge-v2 --task_name multirc\
+                --output_dir output/simile/discriminative/petmodelsfewshotsimile/output/ --do_eval --do_train
 
 TBD
