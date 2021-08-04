@@ -1,0 +1,1003 @@
+[
+    {
+        "Input.gen1": "Her voice was so smooth, you could hear every word she said",
+        "Input.gen2": "It was hard to tell what she was thinking",
+        "Input.gen3": "She was so boring and unemotional overall",
+        "Input.meaning": "vibrant and sharp",
+        "Input.narrative": "She wanted to know if it could do more damage. \"it's so hard to say,\" he answered. \"but I honestly don't know how it could do more damage. Maybe it could deflect the attention to him, where it should be.\" \"it's fine,\" she said, her monotone voice an echo of his sister. She was <b>like a high-definition tv</b> .",
+        "responses": [
+            1,
+            1,
+            1
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "The smell of death was in the air",
+        "Input.gen2": "Was in a panic as he looked around",
+        "Input.gen3": "The quiet was eerie, it inspired a creeping fear",
+        "Input.meaning": "silent",
+        "Input.narrative": "Dreams of being taken prisoner in iraq began to haunt his dreams. Then the dream of being shot in the chest by cramer; pushing lindsey aside and taking the bullet himself. As the projectile impacted his chest like the kick of a mule, he started and woke up suddenly, eyes wide and looking around as if expecting enemies from any and all directions. He sweated profusely. Between him and the shed, heat waves shimmered and danced once again in erratic patterns. The camp was <b>like a cemetery.</b>",
+        "responses": [
+            3,
+            3,
+            3
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "It was as if the memory was set off by a loud bang",
+        "Input.gen2": "The memory was so vivid and he felt it was very real",
+        "Input.gen3": "Ing in the background",
+        "Input.meaning": "shooting up from his subconscious",
+        "Input.narrative": "That it was all right even though she looked like his mother when his mother had been younger and even though she ate brownies in bed while watching hardcastle and mccormick or falcon crest and the crumbs always got on his side and even though she wasn't all that bright and even though she understood and condoned his remedies in the medicine cabinet because she kept her own in the refrigerator? Or was it... could it be that... these other ideas were all things he had considered in one way or another, at one tune or another, during his oddly entwined lives as a son and a lover and a husband; now, on the point of leaving home for what felt like the absolutely last time, a new possibility came to him, and startled wonder brushed him like the wing of some large bird. Could it be that myra was even more frightened than he was? Could it be that his mother had been? Another derry memory came <b>like a balefully fizzing firework</b>",
+        "responses": [
+            2,
+            "neither",
+            2
+        ],
+        "majority": "baseline"
+    },
+    {
+        "Input.gen1": "Looked at the stacks suspiciously, they seemed like they could collapse at any moment",
+        "Input.gen2": "I felt like i could not take a step without falling",
+        "Input.gen3": "I was amazed that it was still standing, it seemed a slight breeze could unravel its fragile structure",
+        "Input.meaning": "streamlined",
+        "Input.narrative": "But that's my type of crazy.\" He collected all of the stacks, counted them, paused, and then pulled one more stack from behind his back. He sat the tower before me on the floor, and it leaned, threatening to topple like jenga blocks. The money came up to my knees. The bills were not wadded or crumpled. It was all so very <b>like a miniature skyscraper</b> .",
+        "responses": [
+            3,
+            3,
+            1
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "It was as if the moon was floating in mid-air",
+        "Input.gen2": "The moon was now almost completely in the sky making it impossible to see anything else",
+        "Input.gen3": "It was like a beautiful, beautiful thing",
+        "Input.meaning": "massive and bright",
+        "Input.narrative": "I think the moon is about to come up, said ana. She wanted to watch the moonrise. Ana went to sit at the bow and cradled her knees, gazing into the distance. Vo watched ana from behind. The wind was whispering softly, the silence mesmerizing. They watched as the full moon completely rose out of the edge of the ocean, <b>like a silver medallion , veiled by just a few wisps of a cloud.</b>",
+        "responses": [
+            2,
+            2,
+            2
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "She was so scared that she couldn't do anything right",
+        "Input.gen2": "She was frightened of the dark",
+        "Input.gen3": "She was so gloomy and gloomy all the time",
+        "Input.meaning": "empty, like someone had scooped her insides right out",
+        "Input.narrative": "Emily's heart beat madly. The rational part of emily's brain put the incident out of her mind, figuring ali had meant it in a comforting way. But the emotional part of her let the feeling bloom like the tiny capsules her parents put in her christmas stocking that slowly formed big, spongy shapes in hot water. That was when emily's love for ali took hold, and without that night, maybe it never would have happened at all. Emily sat down on her bed, staring abstractly out the window. She felt <b>like a jack-o'-lantern.</b>",
+        "responses": [
+            1,
+            "all",
+            1
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "Kept touching the milky membrane hoping it would give me an answer",
+        "Input.gen2": "I was afraid i would slip off the membrane",
+        "Input.gen3": "It was as if the material was very soft and squishy",
+        "Input.meaning": "sticky",
+        "Input.narrative": "Then almost on cue, my feet warmed. I still wanted my shoes, they cost me ninety dollars at the dsw. I continued walking around the room until I came to the small holographic panel. I nervously tapped at the panel. Nothing happened. I touched the giant milky membrane which was <b>like a wet marshmallow</b> .",
+        "responses": [
+            "neither",
+            3,
+            "neither"
+        ],
+        "majority": "neither"
+    },
+    {
+        "Input.gen1": "Wearing a low-riding, low-cut red dress",
+        "Input.gen2": "I have a white dress on and a pair of shoes that i bought at the mall",
+        "Input.gen3": "I felt like a princess as I walked around in my high heeled shoes",
+        "Input.meaning": "donning a short, thin ivory and pink dress with frilly layers that lay loosely four inches above knees.",
+        "Input.narrative": "Aren't you worried someone might tip vonnegut or niklas off?\" \"i think about that every day,\" he answers. \"it is why I must choose my clients wisely, why I must be very careful, testing anyone and everyone who crosses my path. Sarai, you never know who might betray you until it's too late.\" I leave it at that and let them both continue to brief me on the mission. ~~~ it's after ten p.m. and I'm dressed <b>like a slutty, rich socialite</b>",
+        "responses": [
+            1,
+            2,
+            3
+        ],
+        "majority": "inconsistent"
+    },
+    {
+        "Input.gen1": "The sun was too bright and burned into my retinas",
+        "Input.gen2": "The sun was very bright, and it seemed to be shining directly on the ground",
+        "Input.gen3": "Was too bright and burned my eyes",
+        "Input.meaning": "flaring through the granular murk",
+        "Input.narrative": "Though it was only mid-afternoon, the air was dark, oddly grainy,like an old newspaper photograph. Where grass had grown on the inland side of the highway, where queen anne's lace had bloomed delicately and whitely, low unrecognizable weeds blanketed the earth. With no blossoms and few leaves, they resembled snakes coiled together and smelled faintly of diesel oil. Occasionally the sun was <b>like a dim orange fire</b> .",
+        "responses": [
+            "all",
+            "all",
+            "neither"
+        ],
+        "majority": "all"
+    },
+    {
+        "Input.gen1": "It was as if the area was designed to keep animals away",
+        "Input.gen2": "Had to get a hold of some kind of scent to get me through this",
+        "Input.gen3": "It smelled very clean and fresh",
+        "Input.meaning": "earthy and pungent",
+        "Input.narrative": "The wolf ran to the mound and disappeared behind it. Sirona followed, her despair replaced by wonder. On the other side of the mound was a small doorway, much like the one in the mound on the sacred isle, except there was no stone blocking the entrance. Seeing no sign of the wolf, she decided the animal must have gone inside. She dropped her pack on the ground, then ducked down and stuck her head inside the passageway leading into the mound. It smelled <b>like a foxs den</b> .",
+        "responses": [
+            1,
+            "neither",
+            "neither"
+        ],
+        "majority": "neither"
+    },
+   {
+        "Input.gen1": "I was unable to move at all",
+        "Input.gen2": "I felt I could not move him an inch and I was afraid he would roll away from me",
+        "Input.gen3": "His strength was undeniable and I struggled to breathe",
+        "Input.meaning": "heavy",
+        "Input.narrative": "So tell me, were you sleeping with william before you married tony or just when you figured out you might get some money out of it?\" She made a cry of outrage and re-aimed the gun. I saw the decision in her eyes the split second she decided to kill me. In a final attempt to save myself, I leapt to the side as the gun went off, grabbing william around the waist and using him as a shield. I felt his body jerk as we both landed hard on the floor with him on top of me. He was <b>like a huge block of cement.</b>",
+        "responses": [
+            "all",
+            "all",
+            "all"
+        ],
+        "majority": "all"
+    },
+    {
+        "Input.gen1": "Like he was trying to keep his hand from getting dirty",
+        "Input.gen2": "It was a feeling of being completely in control of something",
+        "Input.gen3": "His fist was so slick that he could not even put his hand in his pockets without it dripping",
+        "Input.meaning": "slick",
+        "Input.narrative": "God might know; the trashcan man did not. A minute, an hour, an age - what was the difference? He became sure that at the instant of the kid's orgasm he would feel two things simultaneously: the hot jet of the small monster's semen on his belly and the mushrooming agony of a dumdum bullet roaring up through his vitals. The ultimate enema. Then the kid's hips froze and his penis went through its convulsions in trashcan man's hand. His fist became slick, <b>like a rubber glove</b> .",
+        "responses": [
+            "neither",
+            2,
+            2
+        ],
+        "majority": "baseline"
+    },
+   {
+        "Input.gen1": "The silence was unsettling in the situation",
+        "Input.gen2": "Heard a bird chirp and was thankful that it was not a thunderclap that would have",
+        "Input.gen3": "The trees were thick and thick as a wall",
+        "Input.meaning": "dark",
+        "Input.narrative": "I should administer some anesthetic, he muttered to himself. He picked up leaves of bhang grown at the edge of the forest and rubbed the cut with the juice. This is a good anesthetic and would lessen the pain, he said to himself. He checked up the axe carefully and found that it was o.k. Now the sky had become brighter and screeches and chatters of birds made the ambience lively. The forest was still <b>like a high wall with serrated top.</b>",
+        "responses": [
+            "neither",
+            1,
+            "neither"
+        ],
+        "majority": "neither"
+    },
+    {
+        "Input.gen1": "Heard the scream and knew that was it, it was all over now",
+        "Input.gen2": "I knew I had to go help her but I was too scared",
+        "Input.gen3": "I could not help but feel like i was about to die",
+        "Input.meaning": "long and loud",
+        "Input.narrative": "Etting her bag down on the kitchen table where she kept it. Walking into the bathroom and taking a pee. Standing up and washing her hands. And then going outside to say hello to her damn rabbits (excuse my language, but I just said that to express how I was feeling at the time I wasnt too fond of them stupid beasts at the moment). Thats when I heard the scream. She screamed <b>like a fire truck siren</b>",
+        "responses": [
+            2,
+            2,
+            "all"
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "Looked at the painting and sighed, it was getting worse",
+        "Input.gen2": "It was as if she had been through a lot",
+        "Input.gen3": "She seemed to have lost all charm and grace",
+        "Input.meaning": "frail and ethereal, yet somehow powerful",
+        "Input.narrative": "Anita stood there forever, saying nothing. \"you don't like it. I know the colors of the sunset are a little crazy; I wanted to emphasize your softness by exaggerating the world around you. You see how it seems that the sky is drawing the color out of you, leaving you a little paler?\" Elizabeth studied the work for flaws. In it, anita looked <b>like an aged queen from king arthur's court.</b>",
+        "responses": [
+            3,
+            3,
+            3
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "I was startled by the unusual hue",
+        "Input.gen2": "Wide and welcoming, they almost seemed to say \"i'm here to stay",
+        "Input.gen3": "I could see her eyes and she was like a beautiful flower",
+        "Input.meaning": "deep green",
+        "Input.narrative": "Practice today was a bitch.\" She swung her full gaze at me. It wasn't the first time I noticed how wide her eyes were beneath her glasses. They were brown, but there was a ring of hazel around her irises. Some days the center looked more green and some days it was gold. Today they were <b>like a freshly mowed football field</b> .",
+        "responses": [
+            1,
+            3,
+            1
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "The world was a blur that seemed to never end",
+        "Input.gen2": "The world seemed to be spinning at a high rate of speed",
+        "Input.gen3": "Vivaldis summer became more present and real for me as the days went by",
+        "Input.meaning": "spinning round and round and revolving around",
+        "Input.narrative": "I asked, a question that sounded stupid even as I said it. Dont be silly, of course you can call me michele. Silly boy. I really felt stupid then, but tried not too let it show. I just held her hand tighter and looked into her eyes where I seemed to be lost in a strange land, an enchanted wonderland, where I wanted at that moment to live forever. Time stood still, the world was <b>like a bizarre carnival ride</b> .",
+        "responses": [
+            2,
+            2,
+            1
+        ],
+        "majority": "literal"
+    },
+     {
+        "Input.gen1": "They were beautiful, but they were not real",
+        "Input.gen2": "We drove down the main street which was decorated with old wooden houses that had been restored to their original",
+        "Input.gen3": "The old houses had more character than the new houses",
+        "Input.meaning": "somehow phony",
+        "Input.narrative": "Talk about being a lot of fun at parties.\" Yates chuckled without humor. \"anyway, that's why I never carry pictures.\" They turned off of northfield avenue in west orange. It was a nicely aging town. Most of the newer burbs had landscapes that looked <b>like a recent hair transplant</b> .",
+        "responses": [
+            1,
+            3,
+            1
+        ],
+        "majority": "baseline"
+    },
+    {
+        "Input.gen1": "They seemed to be watching everyone and everything around them",
+        "Input.gen2": "He was worried about what could be lurking in the shadows",
+        "Input.gen3": "They seemed like they were watching them but not really able to show it",
+        "Input.meaning": "staring too hard and smiling too wide",
+        "Input.narrative": "Would you like to walk fast instead of jog? Maybe later, shari said as she seemed to notice odd looks as they passed people. She looked back at zeke and muttered softly. Thats eerie. Zeke watched the residents as they passed. They were <b>like a spooky painting in the middle of the night.</b>",
+        "responses": [
+            2,
+            2,
+            "all"
+        ],
+        "majority": "baseline"
+    },
+    {
+        "Input.gen1": "Didn't look good on her",
+        "Input.gen2": "The bruises were very obvious",
+        "Input.gen3": "It was as if her skin was smudged with a brownie",
+        "Input.meaning": "in a pattern of dark blue, purple, and black",
+        "Input.narrative": "I love penny. You have to know that. I've driven your father mad with how much i've talked about you. Yeah? Is that how you got those bruises on your face? They colored her pure white skin <b>like a sloppily designed ink blot test</b>  .",
+        "responses": [
+            3,
+            2,
+            1
+        ],
+        "majority": "inconsistent"
+    },
+    {
+        "Input.gen1": "Dogs were jumping and barking in a loose pack",
+        "Input.gen2": "The humans were having a great time, jumping and barking and running around",
+        "Input.gen3": "I had to laugh as i watched them",
+        "Input.meaning": "yapping at each other",
+        "Input.narrative": "Where you off to? A meeting of the minds, he says. Maybe you should join me. Want some fiddle faddle? He goes into the paper bag and pulls out a red carton and lets me get a handful, some kind of sugar-coated popcorn. We stand there munching next to the evening sun-swept grass and whispering trees of duboce park, where a bunch of happy-ass dogs are sprinting around in circles while their owners stand there <b>like a scarecrow convention</b> .",
+        "responses": [
+            1,
+            3,
+            3
+        ],
+        "majority": "baseline"
+    },
+    {
+        "Input.gen1": "He was very smooth and had a very appealing athletic body",
+        "Input.gen2": "Body was long but filled out with curves",
+        "Input.gen3": "He was strong and agile",
+        "Input.meaning": "built lean",
+        "Input.narrative": "Lucius dark brown hair that would turn blond around his temple if he spent too much time in the sun, hung down his back and was tied with a piece of leather. Sariels ginger hair fell in soft curls around his face. Lucius eyes were hazel but sometimes looked gold or green, depending on what he was wearing or his mood. Sariels eyes were pale green, so light that only the dark ring around the iris kept the color from disappearing into the whites of his eyes. Lucius had broad shoulders and a thick muscular chest that matched equally impressive arms and legs. Sariel was <b>like a long distance runner or swimmer.</b>",
+        "responses": [
+            1,
+            "all",
+            1
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "Fog rolled in thick and made everything look gray",
+        "Input.gen2": "It was cold and wet and the leaves were heavy with dew",
+        "Input.gen3": "The air was thick and heavy and made one feel very claustrophobic",
+        "Input.meaning": "dark, oddly grainy",
+        "Input.narrative": "Two of the trees grew together a short way ahead, their warty trunks twisted around each other in a way that suggested violence more than love. As jack stared at them while they hurried past, he thought he saw the black holes in the bark mouthing at them, blowing curses or kisses: and he knew that he heard the roots gnashing together at the base of the joined trees. ( boy! A boy's out there! Our boy's out there! ) Though it was only mid-afternoon, the air was <b>like an old newspaper photograph</b>  .",
+        "responses": [
+            1,
+            1,
+            3
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "Adam's energy was once again at a high level",
+        "Input.gen2": "I felt calmed and comforted, and I knew I could keep going",
+        "Input.gen3": "I feel that he is calm and relaxed",
+        "Input.meaning": "calm",
+        "Input.narrative": "What's the point of painting it?\" It's hard to keep up with his mood changes. \"you're scaring me,\" I say. He huffs and returns to the chair, lowering his voice, softening his eyes. His energy shifts once again. Now he feels <b>like a high mountain lake  without a wind stirring it.</b>",
+        "responses": [
+            "neither",
+            2,
+            "neither"
+        ],
+        "majority": "neither"
+    },
+    {
+        "Input.gen1": "Thoughts came one after another easy to grasp and understand",
+        "Input.gen2": "The thought of the world is bright and beautiful",
+        "Input.gen3": "It was as if the thought came from everywhere and was refreshing",
+        "Input.meaning": "as clear and bright",
+        "Input.narrative": "I look behind me and wonder if I'm just in shock. Pennies is shrieking now. Ret and the others move him onto the bed where I'd first seen glaves zombified wife. Pennies mustve gotten a dose right in the mouth because his body starts shaking. And I feel it again, like being shoved, only no one's there. A thought forms in my mind and it's <b>like a sun-filled day</b> .",
+        "responses": [
+            3,
+            1,
+            1
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "His voice was powerful, pulling me all kinds of ways as if he knew exactly how I was feeling",
+        "Input.gen2": "I turned to see who it was but didn't see anyone",
+        "Input.gen3": "I couldn't help but feel that he was a powerful presence",
+        "Input.meaning": "dark and menacing",
+        "Input.narrative": "I guess I expected it on some level, after all, that's the story of my mother's life in a nutshell. She always said love was a dangerous plague once it found you-with no cure and certain death in the end. But I romanticized her black and white notion. A part of me chose to believe love had the ability to walk right over death like a stone in its path and endure for the expanse of all eternity. \"stevie!\" His voice booms over my shoulder <b>like a tornado twisting</b> up alongside me.",
+        "responses": [
+            1,
+            1,
+            1
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "The wounds were so large that it was hard to imagine how he could walk again",
+        "Input.gen2": "Dirt, grime, and blood covered his body",
+        "Input.gen3": "It was as if his body was falling apart",
+        "Input.meaning": "squeak",
+        "Input.narrative": "But then she found additional cuts, bruises, and burns. The more he undressed, the more wounds she found, until he was completely naked and feeling anything but heroic. He stood among thousands of warriors wearing nothing but bandages. The fearsome red baron appeared covered in toilet paper. By the time blade finished bandaging billy, the scrawny kid looked like a mummy looking for his daddy. While the gauze stopped the bleeding, it also soaked up the rain, making his every movement <b>like a rusty wagon on a bumpy road.</b>",
+        "responses": [
+            "all",
+            3,
+            3
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "Like I was going to explode",
+        "Input.gen2": "I couldn't stand the pain",
+        "Input.gen3": "It was as if I could barely hold it together",
+        "Input.meaning": "hollow",
+        "Input.narrative": "I picked up the pack and my single-shot.22 rifle. We hurried down the narrow dirt road toward the abandoned thompson house. Dub was taking in everything around us. He kicked a pinecone along in front of him and even whistled, old joe clark, a popular ozark fiddle tune. He whacked a leaf on an oak tree sprout growing alongside the road with the tip of his fishing rod and knocked it off onto the ground. I smiled when dub looked at me and laughed, even though inside I felt <b>like a rotten log</b>",
+        "responses": [
+            3,
+            3,
+            2
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "Ustrying to keep up with her, I came to a large plaza in the center of the city",
+        "Input.gen2": "She had a beautiful face and she had a very pretty face",
+        "Input.gen3": "It was as if her hair was flowing naturally",
+        "Input.meaning": "wild",
+        "Input.narrative": "I took one look back at the fortress city of jura with my fist raised. I promise I will end her reign of terror. 20 where is everyone? I panted as I followed suzanne, running slightly a few feet behind. I figured you guys would stick together all the way. She laughed hysterically as her hair ran <b>like a loose horse in the glistering moonlight.</b>",
+        "responses": [
+            1,
+            3,
+            3
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "I was looking at it and it was like an old man with a cane walking on the ground",
+        "Input.gen2": "Seeing it for the first time really did not meet my expectations",
+        "Input.gen3": "It was as if the building was never decorated at all",
+        "Input.meaning": "even more archaic",
+        "Input.narrative": "My arms were beginning to ache from carrying her for so long. Finally, we reached our destination. A stone house. It was not what I was expecting. I am not sure what it was I was expecting. A ruined wooden shack, perhaps, or something <b>like a thatched roof earthen hut</b> .",
+        "responses": [
+            2,
+            3,
+            2
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "The lack of life was depressing",
+        "Input.gen2": "And it was here that we would make our base",
+        "Input.gen3": "The crater was not large enough to hide anything and it was hard to tell if there was anything there",
+        "Input.meaning": "particularly appalling,",
+        "Input.narrative": "*** Mech city came into view, nestled in its little valley among deforested hills and bracketed by two small lakes. Winston paused and allowed himself a brief period of rejoicing. Yippee, he uttered. But it was not really a yippee moment. Mech city appeared as drab and lifeless as the adjacent countryside. A large crater in the center of town looked <b>like a ragged hole gouged into a pastry.</b>",
+        "responses": [
+            "neither",
+            1,
+            1
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "I felt like he would attack me if i didn't stay away",
+        "Input.gen2": "His eyes were puffy and red and he had that look in his eyes like he was ready to charge at me",
+        "Input.gen3": "As if he was ready to charge at me",
+        "Input.meaning": "flaring",
+        "Input.narrative": "Johan didnt say another word, he just folded the paper neatly and stuffed it in his bag. He had that look in his eyes again, cold and distant, like a shark sizing up his next meal. Chapter 23: the spear in the dark have you seen this? Unbelievable! Johan tossed a scrunched up piece of paper at me. I picked it up and eyed him warily; his nostrils were <b>like an agitated bull</b>",
+        "responses": [
+            "all",
+            "all",
+            "all"
+        ],
+        "majority": "all"
+    },
+    {
+        "Input.gen1": "She was afraid to move because she felt she would be unable to breathe",
+        "Input.gen2": "It was as if giada had been struck with a strong ray of light",
+        "Input.gen3": "It was as if the cloud had been draped over her head already",
+        "Input.meaning": "to rest on the surface of the moon giving back to the night the darkness of which she was mistress.",
+        "Input.narrative": "The streetlight turned back on unexpectedly and luca walked hunched, with his long arms limp, like disarticulated appendages. His tapering, doglike face was covered with dark hair. At one end there was, a wet, black nose, like a coal nut, kept wet by quick strokes of his tongue. Giada stepped back and did what she inexplicably had not yet done so far. She screamed until she felt her lungs burn. Then, a cloud came <b>like a fresh cloth on the forehead of a patient</b>",
+       "responses": [
+            1,
+            1,
+            "all"
+        ],
+        "majority": "baseline"
+    },
+    {
+        "Input.gen1": "She was not only large but also very strong",
+        "Input.gen2": "Her frame was sturdy and large enough that you could tell she put some effort into it",
+        "Input.gen3": "She had a firm, solid look about her that was hard to miss",
+        "Input.meaning": "stocky",
+        "Input.narrative": "After the cramp faded back into the now-familiar ache, a nurse came over to them and told them that she was authorized to give meredith something for pain management while they waited. Meredith and amelias eyes met, and amelia stifled a smug smile. That would be great, meredith said breathily. Come with me, then, the nurse said. She was an older woman with closely cropped iron gray hair. She wasnt overweight, but she seemed <b>like a miniature tank</b>  .",
+        "responses": [
+            "all",
+            "all",
+            3
+        ],
+        "majority": "all"
+    },
+    {
+        "Input.gen1": "He was nervous and excited",
+        "Input.gen2": "Lady luck was with them that night",
+        "Input.gen3": "His nervousness was palpable as he walked into the room",
+        "Input.meaning": "nervous",
+        "Input.narrative": "As nervous as\t a schoolboy out on his first date. He had noticed a change in her since phillips death. There wasnt anything specific he could put his finger on, but she seemed to be more pensive, more distant around him. The next day, after the three of them had breakfast, they drove to confresa, returned the jeeps, and booked a flight to manaus. When catalina told eric she planned on spending a few days in brazil visiting her grandfather, eric suggested they meet for dinner the following evening at mundo dos sucos, an elegant restaurant noted for its seafood. Eric arrived first. He was <b>like a schoolboy out on his first date.</b>",
+        "responses": [
+            "neither",
+            3,
+            3
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "As he felt better he began to think about the next step",
+        "Input.gen2": "It was as if he was filled with energy",
+        "Input.gen3": "He felt great and was in great spirits",
+        "Input.meaning": "content",
+        "Input.narrative": "It proved too much and she too was effected, remembering she also hadnt eaten since breakfast and was sickened at the thought of his disappearance for hours. Ethan devoured an entire pizza alone and two slices from the third before downing three glasses and much of his pitchers golden liquid. Kanade though finished off the remainder of the meal and liquor. Much better. He said and rubbed his firm stomach. I feel <b>like a fat cat.</b>",
+        "responses": [
+            1,
+            1,
+            "all"
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "It was as if I could see all of space",
+        "Input.gen2": "I was amazed by all the details of it",
+        "Input.gen3": "I was so excited that i was able to spend time with him",
+        "Input.meaning": "infinite",
+        "Input.narrative": "Almost a whole day?\" He brightened so much that I couldn't help but blush happily. \"that's amazing.\" \"yeah, it is.\" By next week, I knew, this short time would seem like nothing. But for now it stretched out before me <b>like a sky full of stars</b>",
+        "responses": [
+            3,
+            1,
+            3
+        ],
+        "majority": "baseline"
+    },
+    {
+        "Input.gen1": "The sound was very loud",
+        "Input.gen2": "My heart beat as the scream pierced the air",
+        "Input.gen3": "Ing from the distance",
+        "Input.meaning": "growing louder and sharper with each second",
+        "Input.narrative": "I reached for my stone magic, pulling the cool power up through my veins and pouring it out onto my hands, hardening my skin there so that the thin rope wouldn't shred my flesh as I slid down it. Just before I hit the ground, I reached for even more of my stone magic, pushing the power outward into my arms, legs, chest, and head, making them all as hard and solid as the stones of the mansion around me. I didn't have time to slow down, and my body punched through the layers of icy snow before slamming into the frozen ground. I grunted at the hard, bruising impact, but thanks to my stone magic, my swan dive didn't do any real, lasting damage. I was already rolling, rolling, rolling, churning through the snow, before using my momentum to pull myself back up onto my feet. I'd taken only two steps when a thin scream sounded, <b>like a train's whiny whistle</b>  .",
+        "responses": [
+            2,
+            2,
+            1
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "Similar to how I have seen others portrayed",
+        "Input.gen2": "The image was so good that it was almost as if it was a real person",
+        "Input.gen3": "It was as if the person had been trained to be exactly like the picture",
+        "Input.meaning": "uncanny",
+        "Input.narrative": "He did not pause because the image was an elephant. He halted because the image was the face of his father. Unable to make sense of what he was seeing, jason stared in stunned befuddlement. He drew close, squinting. The picture was not quite as perfect as a photograph, but it seemed as unmistakable. The resemblance was <b>like a really good caricature</b>  .",
+        "responses": [
+            "all",
+            2,
+            "all"
+        ],
+        "majority": "all"
+    },
+    {
+        "Input.gen1": "He was able t to stand on his own two feet and was ready to fight",
+        "Input.gen2": "Used his momentum to push him off balance",
+        "Input.gen3": "He knew he had the advantage on him now",
+        "Input.meaning": "helpless",
+        "Input.narrative": "Both went down, fists flying. Joey was intent on murder and all bens efforts were now dedicated to self-preservation. However, this was where bens innate power began to work for him. On the ground at close quarters, he could feel that he was actually more powerful than his bigger opponent. Keeping his quarry clutched close, he stopped him from swinging his arms and landing punches with those massive meaty fists and was able to scramble onto joeys back. Then rolling onto his own back, with joey clamped in front of him, he rendered the monster <b>like an upturned tortoise.</b>",
+        "responses": [
+            3,
+            "neither",
+            3
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "She was unable to do what she needed to do so easily",
+        "Input.gen2": "Jodi was trying to get the words out",
+        "Input.gen3": "Tried to keep the images of the probing out of her mind",
+        "Input.meaning": "paralyzed",
+        "Input.narrative": "Seamus asked in a soothing, even voice. Jodi made an indistinguishable sound from her mouth, her lips working, eyes glassy. Cara suddenly realized what was going on. Seamus was probing her mind. It was disconcerting to watch. Jodi looked <b>like a stroke victim , trapped in her own mind, spittle forming in the corner of her mouth.</b>",
+        "responses": [
+            1,
+            1,
+            2
+        ],
+        "majority": "literal"
+    },
+   {
+        "Input.gen1": "I was able to move my arms and legs freely, i was free to move about freely",
+        "Input.gen2": "Letting go of my body was like I was falling through the air",
+        "Input.gen3": "I was moving easily and light",
+        "Input.meaning": "hang limp",
+        "Input.narrative": "I told myself that this was just like any other hunt . My heartbeat didn't accelerate. I didn't hold my breath. My muscles were loose and relaxed. Colette bent down to grab me, lifting me like I weighed nothing. I let my body <b>like a rag doll.</b>",
+        "responses": [
+            "neither",
+            2,
+            2
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "He looked like a little cloud of dust",
+        "Input.gen2": "Seeing him made everyone nervous",
+        "Input.gen3": "His hair was white and he had a worried look on his face",
+        "Input.meaning": "frail",
+        "Input.narrative": "Jorr was a little bit sad when edred found a mate and left to work in the town where she lived, but rosalia explained that he was of an age to do so, by human standards. As for rosalia, her hair suddenly bleached white, and she became much more stooped, all in only ten or twenty years. Edred and his mate came back to live with her, but the new woman did not want to talk to jorr, saying she was afraid of him. Then there were more younglings, and to jorrs great shock and sorrow, rosalia died. The younglings grew so fast it made jorr dizzy, and edreds hair became white, just as his mothers had. Then one day edred came out to see jorr, looking <b>like a wisp of cobweb</b>",
+        "responses": [
+            "neither",
+            3,
+            3
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "I was going to go hungry if I kept eating the same things over and over again",
+        "Input.gen2": "I had to find a way to get more out of this situation",
+        "Input.gen3": "I was already feeling hungry and the thought of more food was only going to make me more ravenous",
+        "Input.meaning": "thin",
+        "Input.narrative": "They were returning home, but to where? As dark fell, the mutan disappeared from sight. I gently awoke suvan, who yawned loudly before opening her eyes. We then silently ate a meal of dried lizard meat before finishing off the last of the water-skin. It wasn't much of a meal, and I was beginning to hunger for something else. With rations like this, I would become <b>like a knife</b> .",
+        "responses": [
+            3,
+            3,
+            3
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "His strong, lean body was built to last a lifetime and he had nothing to be insecure about",
+        "Input.gen2": "Had to be at least a hundred pounds because he looked like he could bench press my dad",
+        "Input.gen3": "He was a huge guy and looked intimidating",
+        "Input.meaning": "indestructible",
+        "Input.narrative": "A column of light spilled out, framing the dark silhouette of a huge man. \"miss whelan?\" His voice was deep and gravelly. He moved to the edge of the light and became more visible. Yes another security guard, caitlyn assumed, since he was well over six feet tall and looked <b>like an army tank</b>.",
+        "responses": [
+            3,
+            3,
+            3
+        ],
+        "majority": "baseline"
+    },
+    {
+        "Input.gen1": "His laugh was low and constant, never rising to a fever pitch or breaking through the tension",
+        "Input.gen2": "It was as if he was just having fun",
+        "Input.gen3": "Heard the sound bounce off the walls",
+        "Input.meaning": "unpleasant",
+        "Input.narrative": "As they rattled along at a breathtaking pace she looked over at amun, whose face was grim and tight as a fist. But what was he leading her to? Surely if al mokhabarat was involved, he wouldn't allow her even the faintest glimmering of the truth. Were they on a wild goose chase? 'we 'll find them, amun,\" she said, more to alleviate the tension than because of any strong conviction. His laugh was <b>like a jackal's bark</b>.",
+        "responses": [
+            2,
+            1,
+            1
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "The emotions spun fast and she was unable to control them",
+        "Input.gen2": "Was unable to control them and were quickly spiraling out of control",
+        "Input.gen3": "She felt the same way i was feeling",
+        "Input.meaning": "wildly",
+        "Input.narrative": "She was pissed that he couldn't spare a single call to his only child. Hey, pop, not only did I survive the florida training camp, I'm going to be an olympian! Thanks for calling in for an update. Fear, sadness, anger rinse and repeat. Her emotions spun <b>like a roulette wheel</b>.",
+        "responses": [
+            2,
+            2,
+            1
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "His body was like he couldn't move",
+        "Input.gen2": "He was submissve to the touch and weak willed",
+        "Input.gen3": "It was as if he had no control over his limbs at all",
+        "Input.meaning": "helpless",
+        "Input.narrative": "Maybe if he kept quiet, kyrian would only drain him. \"it's not what you think, nick.\". \"i think you're a bloodsucking demon vampire who's going to kill me-that's what I think.\" Before he could so much as blink, kyrian reached out and grabbed nick's neck with some kind of vulcan death grip. He wanted to fight, but he was <b>like a pup being held by the scruff</b>.",
+        "responses": [
+            3,
+            3,
+            3
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "It was large and well lit making it hard to see and be undetected",
+        "Input.gen2": "He was in awe of the size and the grandeur of this space",
+        "Input.gen3": "It was large and well lit with torches burning at intervals along the stone walls",
+        "Input.meaning": "large",
+        "Input.narrative": "He would reassure her that riora had agreed to him competing - and convince her that he could do this. He traced to london. To find the bed was empty and the chains broken. She was gone... when he traced directly to her, he appeared at the edge of a chamber of fire. The cavern that housed it was <b>like an auditorium</b>",
+        "responses": [
+            3,
+            3,
+            2
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "His quiet feet pounded into the ground making a rythm sound that was constant",
+        "Input.gen2": "The wind was a constant companion",
+        "Input.gen3": "His steps light and swift",
+        "Input.meaning": "fast",
+        "Input.narrative": "The voiles covering the french doors swayed a little, as the fierce winds found there way through minute cracks in the frame. I slipped into bed, forcing the childhood fear of a storm aside and pulled the sheets tightly around myself, banishing the cold. I screwed my eyes shut and waited until I fell into an uneasy sleep. A cloaked figure swept his way through the forest, deep into the parts where rogues ruled. Rogues like himself. He didn't make a sound as he walked, his movement <b>like a falcon</b>",
+        "responses": [
+            3,
+            3,
+            3
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "It was as if the fire was barely even there",
+        "Input.gen2": "His magic was barely strong enough to light their way",
+        "Input.gen3": "It was as if they were barely even there",
+        "Input.meaning": "weak",
+        "Input.narrative": "Let's get her! Bobby screamed. The giant let out a loud whoop of agreement. Apparently not. They rushed me at the same time, and bobby threw his elemental fire at me. He was strong in his magic but, compared to the blazing inferno that i'd faced when i'd killed mab, his power felt <b>like a candle flame.</b>",
+        "responses": [
+            "all",
+            2,
+            "all"
+        ],
+        "majority": "all"
+    },
+    {
+        "Input.gen1": "It was too revealing, and it was not the kind of thing you would wear to a school dance",
+        "Input.gen2": "Wore anything that showed off her curves",
+        "Input.gen3": "It was as if they had outgrown their childhood favorite",
+        "Input.meaning": "garish",
+        "Input.narrative": "I'm just getting word that mr. and mrs. clark have been looking for her for months to no avail. It's heartbreaking that their long search for their daughter had to end in such tragedy.\" Another image appeared on the screen. It was a picture of tabitha in a cheerleading uniform, surrounded by girls aria had never seen before. Then, there was a photo of tabitha standing in front of a stadium, wearing an oversized new jersey devils t-shirt and giving a thumbs-up. Ali never would have worn something <b>like a new jersey devils t-shirt.</b>",
+        "responses": [
+            "neither",
+            "neither",
+            1
+        ],
+        "majority": "neither"
+    },
+    {
+        "Input.gen1": "The sky was overcast so the storm couldn't be seen",
+        "Input.gen2": "I was not worried at all",
+        "Input.gen3": "Thought quickly changed to: what the hell is that",
+        "Input.meaning": "blue",
+        "Input.narrative": "The worst he can say is no... and then I can go back to loitering. I inhale then let out the deep breath i've been holding and take in the scent of cornbread, fresh laundry, dirt, cedar trees, and of course, horseshit. I can do this. I charge down the driveway and suddenly a wailing, high-pitched alarm goes off. My first thought is: tornado! But the skies are <b>like a robin's egg.</b>",
+        "responses": [
+            3,
+            3,
+            3
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "'so my internal fire went off like a match ignites tinder",
+        "Input.gen2": "I felt so comfortable in my own skin",
+        "Input.gen3": "I felt my internal fire begin to rise and knew that I was ready",
+        "Input.meaning": "quickly",
+        "Input.narrative": "And not just any star. The next protector of earth. I was a very important star. With swift movements, I unzipped my heavy coat and flung it from my arms. I moved into a battle ready stance and let the warmth, the warmth I had hidden deep inside me, bubble to the surface. My golden toned skin met my internal heat welcomingly and it spread across my body <b>like a wildfire in a drought</b>.",
+        "responses": [
+            1,
+            3,
+            3
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "They were blue and bright like the sky",
+        "Input.gen2": "'s eyes were blue and clear in front of me'",
+        "Input.gen3": "I could see her eyes were filled with a sense of peace",
+        "Input.meaning": "blue",
+        "Input.narrative": "I have often wondered.\" \"doing it isn't the same as reading a book about it,\" I shot back. \"the only thing the same as reading a book is... reading a book!\" She laughed. \"if you'd chosen books instead, you'd still have a finger.\" Like her mother, she had abram von helrung's eyes, <b>like a mountain lake on a sunny autumn day.</b>",
+        "responses": [
+            1,
+            1,
+            3
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "'shell' he thought as he lay back down",
+        "Input.gen2": "The man looked worn down",
+        "Input.gen3": "His rough features made him seem even more dangerous",
+        "Input.meaning": "spiky",
+        "Input.narrative": "For the quiet and for the smell of wood smoke. Serena looks at the fire, contemplating if armorer assistant would be a better job than werewolf liaison. Ronan's blackened scales represent long days that grew into years and then decades working over the fire. Most of his body is covered, as scales are better protection around the searing heat required for melting metal. Some have experienced so much exposure they are curling up. He looks <b>like a sea urchin.</b>",
+        "responses": [
+            3,
+            3,
+            "neither"
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "He was so excited to see his friend and associate",
+        "Input.gen2": "Looked very comfortable and content just being there",
+        "Input.gen3": "I was afraid that i would fall over and break my neck if i fell down",
+        "Input.meaning": "bewildered",
+        "Input.narrative": "E brought her hand up, touched the gold ring on her right index finger, the fair folk metal warm to the touch. \"clary,\" he said. \"you're clary. You're my best friend.\" Alec made his way up the hill to where magnus stood on the pathway overlooking the tent. He was leaning against a tree, hands in his pockets, and alec joined him to watch as simon, looking <b>like a newborn duckling</b>",
+        "responses": [
+            1,
+            "neither",
+            1
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "He was very tricky to predict and very hard to stop",
+        "Input.gen2": "She is very cunning and she always has the upper hand in the situation",
+        "Input.gen3": "Zygomatics assumed that they had the advantage over him but they were wrong",
+        "Input.meaning": "slippery",
+        "Input.narrative": "'What about the tolnedran legions then? There have always been good relations between tolnedra and cthol murgos. ' Javelin coughed delicately and then looked around with some show of checking for unwanted listeners. Javelin knew that he must move with some care now. Urgit was proving to be far more shrewd than any of them had anticipated. Indeed, he was at times <b>like an eel</b>",
+        "responses": [
+            1,
+            3,
+            1
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "Her body had been so lean and she was still so curvy",
+        "Input.gen2": "She was athletic and strong and there was nothing in her that would be considered weak",
+        "Input.gen3": "Considering her build she must be very strong and powerful",
+        "Input.meaning": "fit",
+        "Input.narrative": "She was holding an impressive sniper rifle over her shoulder and had a pair of 45 caliber socom pistols holstered to her belt too. She looked better in that picture. Happier than she looked now. Lots of color and vibrancy in her face and a better fed stomach. She had an even nicer figure. She must have been <b>like a snow leopard.</b>",
+        "responses": [
+            2,
+            "all",
+            2
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "The room was large and had many different levels",
+        "Input.gen2": "The room was empty and it was as empty as it could be",
+        "Input.gen3": "Looked at the man appraisingly, he was large but like an old man in a nursing home",
+        "Input.meaning": "vast",
+        "Input.narrative": "Tell glass. I want to make sure he and red know what's happening.\" Trey nodded, his jaw clenched in anger as he watched the jinn take a hold of jai and ari. Ari felt cold at the jinn's touch and closed her eyes, letting him steal her into the whirlwind ride to mount qaf. *** azazil sat casually in his throne upon the dais in his large ballroom, eyeing ari in a way that suggested he was bored. This was where she'd first seen him, in this mirrored room, a space <b>like an airplane hangar.</b>",
+        "responses": [
+            1,
+            1,
+            1
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "His words managed to make me jump and I was sure that everyone else would as well",
+        "Input.gen2": "The sound was like it was trying to warn you that it's about to attack",
+        "Input.gen3": "Was it a warning to me",
+        "Input.meaning": "deep and low",
+        "Input.narrative": "A confron with the boss. Adrian's first clue that all was not well in casa d'angel was the illumination that cut in around the closed door to his bedroom. Bleeding through the jambs like the detonation flash  of a car bomb, it could only be explained by a visit of the archangel variety. Either that or that crap-ass stove downstairs in the kitchen had spontaneously combusted. Getting off the bed, he limped to the door naked and opened things up so he could get a gander at the drama. \"... not interested-so f**king not interested...\" as jim marched out of the loo with a towel around his hips and water dripping off his hair, his voice was <b>like a rattlesnake giving a warning.</b>",
+        "responses": [
+            2,
+            2,
+            2
+        ],
+        "majority": "baseline"
+    },
+    {
+        "Input.gen1": "She would glide through the crowd with ease",
+        "Input.gen2": "Her movements were like a soft breeze blowing through the tree",
+        "Input.gen3": "She was almost like a mythical creature",
+        "Input.meaning": "insubstantial",
+        "Input.narrative": "Even if it looks like hes leaving, ill bet you hes hiding around the corner, just to catch you sneaking back! The poor man was having kittens. He was so worried he'd led you guys into a relationship you werent ready for! With the odd, slight fluttering of her wings, jial glided along just a few inches above the floor. As usual, she was shoeless, wearing only her intensely white bobby socks. Now and again, as other people walked by, she passed through them as if she were <b>like a mirage</b>.",
+        "responses": [
+            1,
+            "all",
+            "all"
+        ],
+        "majority": "all"
+    },
+    {
+        "Input.gen1": "Was struck speechless when she finally revealed her face",
+        "Input.gen2": "She remained still as the rest of us took notice of her",
+        "Input.gen3": "Her face was completely blank, her eyes were closed, and her face seemed to have no expression",
+        "Input.meaning": "strikingly beautiful, stately and strong",
+        "Input.narrative": "He could hear the mournful cries of human suffering echoing across the water. The woman moved toward him, holding out her slender hands, as if beckoning for help. \"who are you?!\" Langdon again shouted. In response, the woman reached up and slowly lifted the veil from her face. She was <b>like a timeless statue</b> .",
+        "responses": [
+            2,
+            2,
+            2
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "She was tempted to run and hide but she had to concentrate",
+        "Input.gen2": "Was afraid she would lose her mind and body to the sickness",
+        "Input.gen3": "She was not comfortable in the water",
+        "Input.meaning": "helpless",
+        "Input.narrative": "She parsed more smells, got denim and wintergreen, hard steel and desperation mingling with the stench of chemo: peter's there, too. So tempting to give the monster a little leash, see if it might slip behind wolf's eyes. What if I could control it? Send it out to very specific targets? That was... a little creepy, and crazy, too. Let the red storm set its hook, and she'd be <b>like a swimmer in a rip current.</b>",
+        "responses": [
+            1,
+            2,
+            1
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "The empty streets gave me a feeling of unease",
+        "Input.gen2": "Streets are empty, buildings empty, people sitting on the sidewalks not moving a muscle and you are forced",
+        "Input.gen3": "You could walk down them in a heartbeat",
+        "Input.meaning": "empty",
+        "Input.narrative": "I figured that the whole operation would take between four and five hours. I decided that a sunday night would be the best time to pull the hit. If you ever happened to be wandering about the city on a late sunday night, then you know how abandoned the streets are. Consider this city life ticks to a metropolitan internal clock mondays through thursdays, there is always moderate graveyard traffic. Fridays and saturdays, unless there is a blizzard, the nightlife is just as busy, if not more so than daylight hours. But sundays, around midnight, leading into the 9-5 workweek, the streets are <b>like an alcoholics liquor cabinet</b>.",
+        "responses": [
+            "neither",
+            1,
+            1
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "Cheerleader on crack I felt so proud of myself",
+        "Input.gen2": "I was born to dance and I never stopped",
+        "Input.gen3": "I try to be strong and strong willed but my words just come out as a rambling stream",
+        "Input.meaning": "upbeat",
+        "Input.narrative": "Just don't get too crazy with your dance moves,\" he says, withdrawing his hand and winking at me. Then he circles the corner of the kitchen counter. \"there's a party in fairtown,\" he tells me, carrying on the conversation as if nothing happened as he digs through his cupboards for something. \"you should hit it up. That town's full of potheads.\" I swallow the anger down and force my voice to come out <b>like a cheerleader on crack.</b>",
+        "responses": [
+            3,
+            3,
+            "neither"
+        ],
+        "majority": "baseline"
+    },
+    {
+        "Input.gen1": "I had to get a hold of myself and move away",
+        "Input.gen2": "It was as if the chair was made of solid rock",
+        "Input.gen3": "I was unsure if I should sit down or take my chances against the beast",
+        "Input.meaning": "wide",
+        "Input.narrative": "Behind me was a massive leather couch with pillows in golds and oranges, a huge wooden coffee table with a bowl full of white stones in the center, and two end tables with lamps. In front of me was a giant, almost bare black desk. Another bowl of white stones sat off to the right and on the left there was a metal tray with a glass decant't'ter filled with an amber-colored liquid and four empty glasses beside it. In the center of the desk was a neat stack of papers, but no pen. Behind the desk was a wall of floor-to-ceiling, cherry-colored paneled doors trimmed in black. Before I could do or look at anything else, I noticed the chair behind the desk-black leather and about <b>like a football player's shoulders.</b>",
+        "responses": [
+            "neither",
+            2,
+            2
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "The white was a contrast to his dark hair",
+        "Input.gen2": "His new look was a bit jarring but not bad overall",
+        "Input.gen3": "Thought of him as a handsome man in his prime",
+        "Input.meaning": "colorful",
+        "Input.narrative": "The boy asked. \"oh, I hope so.\" With the red keep so crowded, tyrion could not hope to go unnoticed. Ser balon swann stood guard on the door, and ser loras tyrell on the drawbridge. He stopped to exchange pleasantries with both of them. It was strange to see the knight of flowers all in white when before he had always been <b>like a rainbow</b>.",
+        "responses": [
+            1,
+            2,
+            1
+        ],
+        "majority": "baseline"
+    },
+    {
+        "Input.gen1": "She was so beautiful in her black dress",
+        "Input.gen2": "She felt like she was going to fall over so easily",
+        "Input.gen3": "Thought about it she must have been suffering from some kind of illness",
+        "Input.meaning": "breakable",
+        "Input.narrative": "His wife was dying. The nurse hadn't said as much, but levana knew it was true. It was clear that evret had been hurried here because it would be his only chance to say good-bye, just as it was clear that it wasn't a complete surprise to him. Perhaps she'd been ill. perhaps the pregnancy had already suffered complications. Levana remembered seeing solstice at the funeral. How she'd looked <b>like a porcelain vase</b>.",
+        "responses": [
+            1,
+            2,
+            1
+        ],
+        "majority": "baseline"
+    },
+    {
+        "Input.gen1": "I am so happy to have such a great body",
+        "Input.gen2": "I felt so sexy strutting around the room",
+        "Input.gen3": "I never realized how pretty I was until I looked in the mirror",
+        "Input.meaning": "elegant",
+        "Input.narrative": "Just running my hands up my own, wonderfully long neck is a priceless sensation in its own right. How many times has this neck been kissed, stroked, envied? I mean, I know but I just cant't't count the number of times! I catch a view of myself in one of the shops many mirrors and my eyes blaze with satisfaction. God, I'm beautiful even with all these freaks still clambering over my back, stitching me up with all that snake-like twine theyd used in my operation, I look <b>like a vogue model</b>.",
+        "responses": [
+            "all",
+            "all",
+            1
+        ],
+        "majority": "all"
+    },
+    {
+        "Input.gen1": "He always knew she was attracted to him but he didn't know how much",
+        "Input.gen2": "She felt like she was being smothered by all of the love she had for him",
+        "Input.gen3": "Looked at him, she was blushing bright red right now",
+        "Input.meaning": "crimson",
+        "Input.narrative": "It was not just his broad shoulders and well-muscled form. It was the knowledge that he would stand by his vows, that he would speak the truth. She had wanted to praise him for his efforts of the night before, to thank him whole heartedly for rescuing her father from certain death. Yet, at his steady gaze, all such thoughts fled her mind, and only one remained. I love you. Reynald blinked in surprise, and sarah blushed <b>like a rose in full bloom</b>.",
+        "responses": [
+            3,
+            3,
+            1
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "They were in the right place at the right time",
+        "Input.gen2": "It was a very nice sight to see",
+        "Input.gen3": "Was surprised to see it and was glad to see it was still there",
+        "Input.meaning": "wonderful and welcome",
+        "Input.narrative": "He studied her expression for a moment, trying to read her, but soon gave up. He turned his attention back to the tunnel walls. His biggest concern was that they might have forgotten to mark a passage somewhere. After all theyd been through, he didnt want to wind up getting lost now, but luck was currently with them. Soon they found the rusty ladder that would take them back up into the service tunnels below the campus. Neither of them ever imagined that they would  see streetlights from the dark side of a sewer grate, but there it was, <b>like a lighthouse beacon to a fogged-in vessel</b>.",
+        "responses": [
+            "all",
+            3,
+            "all"
+        ],
+        "majority": "all"
+    },
+    {
+        "Input.gen1": "He was very good at putting people at ease",
+        "Input.gen2": "I had a feeling that i was not going to like what i would see from this man",
+        "Input.gen3": "Looked at him and smiled",
+        "Input.meaning": "False",
+        "Input.narrative": "I brightened at the thought that the sydney goons were looking quite different now. \"come in gentlemen, come in,\" tarasoff welcomed us, as if we were here by his express invitation. He ignored the fact that steve was already halfway to his desk. I hung back and a little to the side, keeping an eye on all of them and making sure steve would not become the meat in the sandwich. \"what can I do for you?\" He added with smile <b>like a pair of silicone tits</b>.",
+        "responses": [
+            2,
+            2,
+            2
+        ],
+        "majority": "baseline"
+    },
+    {
+        "Input.gen1": "It was as if it had been through a cannon",
+        "Input.gen2": "The head of the creature is completely missing",
+        "Input.gen3": "Heard the snap of the suit's jaw and saw the creature jerk and fall to the ground",
+        "Input.meaning": "deep",
+        "Input.narrative": "Listen to me boy, these things arent like any of those science fiction movie type living dead creatures, no these are much freaking worse. Think of them as wild predators that walk upright, have opposable thumbs and have the brain capacity to do only one thing, hunt. They dont bite you and turn you, they rip the flesh from your bones while you still alive. They hunt in small packs each with a leader, their ways similar to that of wild dogs. Thankfully all wev'e had to deal with is the occasional stray, like our friend over there. Smith pointed to the creature in the pin stripe suit that now had a hole in its head <b>like a crater</b>.",
+        "responses": [
+            1,
+            1,
+            "neither"
+        ],
+        "majority": "literal"
+    }
+    {
+        "Input.gen1": "He was very fast and graceful",
+        "Input.gen2": "Was able to reach his feet and move quickly after being thrown",
+        "Input.gen3": "He was faster than any of the other agents and they all tried to catch up to him",
+        "Input.meaning": "fast",
+        "Input.narrative": "He yelled and bolted down the ramp, his fellow agents, cops, and guards from the boys protection detail following close behind. Ames stop, or well take you down! Ames shove the chair forward into the open door of an suv, and james saw daniel kick with both feet in a move that must have been agony. Saw parker ames fall and the boy get up and stagger. He ran <b>like an olympic sprinter</b>.",
+        "responses": [
+            3,
+            3,
+            3
+        ],
+        "majority": "baseline"
+    },
+    {
+        "Input.gen1": "Liquid was dripping from the table and landing on the floor",
+        "Input.gen2": "I had to get out of the room as fast as possible",
+        "Input.gen3": "It was as if someone had dropped a can of liquid candy on the floor",
+        "Input.meaning": "red and sticky",
+        "Input.narrative": "To my right I saw a group of people I did not recognise setting the tables one by one in silence, moving towards and then around me. They avoided my own table intentionally, but I didnt mind. A few moments later I was aware of a sound near my legs, a sort of pattering, like drops of rain dripping from a roof and splashing onto a solid floor. What was that sound? I leaned over to get a look and saw liquid gently cascading from the table and onto the floor. It was <b>like a melted popsicle on a warm day.</b>",
+        "responses": [
+            3,
+            3,
+            3
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "Questions about the brothers always made me laugh because they were so unpredictable",
+        "Input.gen2": "You can't help but feel that you are being manipulated, but you don't know how to break",
+        "Input.gen3": "Questions were dodged and answers were not given carefully enough I felt I could have gotten more information out of",
+        "Input.meaning": "difficult",
+        "Input.narrative": "Hes right; books are so much better than people. Anyway, gabe continues, the sites dont bring in a lot, but its enough. Keeps gas in the cars he pats the glove compartment beer in the fridge and bullets in the guns. Bravo! I clap, and gabe gives me a little bow. I press on with my questions, but teasing answers from the brothers is <b>like a moving a pile of sand using chopsticks.</b>",
+        "responses": [
+            3,
+            3,
+            "neither"
+        ],
+        "majority": "context"
+    }
+]
