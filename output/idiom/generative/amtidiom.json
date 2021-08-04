@@ -1,0 +1,1394 @@
+[
+    {
+        "Input.gen1": "He was so strong and agile, he was a match for me, but it was not going to",
+        "Input.gen2": "Felt like a failure as a fighter",
+        "Input.gen3": "Felt like a little girl in the face of this newfound power",
+        "Input.narrative": "He sounded as if he truly did not want to fight, but I didn't care. He quickly leapt over my head as I rushed him. He was as quick as tango when it came to changing directions, but I still believed I could get the upper hand if I was able to keep him inside. I threw an emphatic overhand right for his head, but he ducked it and used my momentum to hip-toss me across the room. Blood rushed to my head as I slammed against the wall and fell to the floor. It was pissing me off that I was so much more powerful than he was, yet I couldn't <b>lay a finger on</b> him.",
+        "responses": [
+            1,
+            2,
+            1
+        ],
+        "majority": "baseline"
+    },
+    {
+        "Input.gen1": "I have to face the consequences of my actions, one way or another",
+        "Input.gen2": "P's crew would do their duty during the day",
+        "Input.gen3": "I have to face punishment, so I better be good",
+        "Input.narrative": "He fixed the women in front of him with a stern gaze. ' The wsos will also go rounds during the night. ' ' That's my evening's entertainment buggered,\"\"whispered the girl beside margaret, and was met by a muffled snort of laughter. ' Just as women are not allowed in naval personnel's quarters, the ship's company is not allowed in the women's quarters and living spaces, except as required for duty. I would remind you of my previous statement, that the duty women's service officers will go rounds during the night. ' ' And naughty girls will have to <b>walk the plank</b>. '",
+        "responses": [
+            "all",
+            "all",
+            "neither"
+        ],
+        "majority": "all"
+    },
+    {
+        "Input.gen1": "They had to know that there would be consequences for their action",
+        "Input.gen2": "Already had to deal with the backlash-it was too much for one village to ignore",
+        "Input.gen3": "They were going to follow their own path",
+        "Input.narrative": "He didn't want to be personally responsible for this as he wanted to avoid alienating the owl, which in turn would distance him from ir. He would get one of his national counterparts to contact cass limpotadur with a juicy worm and take it from there. *** Hells hill had followed redwood paddock in reverting to the original name. The citizens were on the march. It gave the postal service a few headaches and wishbone was furious at the lack of control the government appeared to have. Privately he was happy that the cretins who dreamed up the names were so publicly judged, but he couldn't afford to simply let this pass, and furthermore another five villages had indicated they were about to <b>follow suit</b>.",
+        "responses": [
+            1,
+            1,
+            "neither"
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "He was seen as someone who didn't care about others",
+        "Input.gen2": "He had been seen as a man with no character and no respect for the profession",
+        "Input.gen3": "He was seen as someone who didn't care about how others saw him",
+        "Input.narrative": "Knox, on the other hand, was neither charged nor tried, except by the press. They hounded him relentlessly, despite his claim that he didn't know that the corpses he bought were the products of murder. He was an old army surgeon and showed considerable resilience in the face of the mob. He formed a committee to make an impartial inquiry into his conduct, and it cleared him of legal responsibility, but even that didn't turn public opinion. Knox was shunned. His colleagues didn't come to his aid because he hadnt gone out of his way to <b>curry favour</b> with them and was considered arrogant.",
+        "responses": [
+            1,
+            1,
+            "all"
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "I didn't know that, but I was happy to hear that it was true",
+        "Input.gen2": "I sat alone in the dimly lit room, trying to focus on the conversation",
+        "Input.gen3": "Eagerly I waited for the rest of the story",
+        "Input.narrative": "Here, here, jack said enthusiastically from his place beside guinevere. Like your mother, andrew added, raising his glass toward mother. When dinner was ended, and the men joined us in the drawing room, mr. Monroe drew me a little apart from the rest as general harvey regaled everyone with his war stories. Mr. Monroes voice lowered so that only I could hear him. I understand that george has gone to visit his nephew. So I have been <b>lead to believe</b>, sir.",
+        "responses": [
+            3,
+            1,
+            3
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "I played the song and the girl smiled and grabbed my hand, pulling me closer to her",
+        "Input.gen2": "I played it with her and she loved it",
+        "Input.gen3": "I started the song and the audience applauded for a long time",
+        "Input.narrative": "It never got that cold, the air had just enough chill in it to make you feel alive. Couples were cuddled up watching the flame inside the chimenea and a flicker of jealousy shot through me. Scarlett should have been there with me, not sitting next to mason's hospital bed taking care of him. I took a long gulp of my beer and settled the guitar in my lap. I went through my usual favorites, a little jack johnson, ben harper, and such, before taking requests from people. After a couple of more songs, a familiar-looking blonde girl that had been trying to <b>catch my eye</b> all night asked me to play lips of an angel.",
+        "responses": [
+            1,
+            3,
+            1
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "Later that day he resigned from the company he was working for",
+        "Input.gen2": "Had he continued to invest in the business, it would have survived, perhaps becoming profitable again",
+        "Input.gen3": "Rory thought it would be better to stay in the company and make money",
+        "Input.narrative": "I apologise. The financial condition of the company didn't seem relevant to the murder of its boss. Seems odd when I put it like that, but thats what I thought at the time. Never mind. We are where we are. What did rory think when things began to <b>go downhill</b>?",
+        "responses": [
+            3,
+            "neither",
+            1
+        ],
+        "majority": "inconsistent"
+    },
+    {
+        "Input.gen1": "I decided to go with the flow and just go with what was given",
+        "Input.gen2": "You will find people willing to trade for whatever you want",
+        "Input.gen3": "I did as she instructed, and soon I was out eating dinner with the locals",
+        "Input.narrative": "How could that possibly work, they wondered? Glute guided them through more trees and wobbled to a stop near a well-made hut. This is it, she said, rearing up to face the boys. You are welcome to stay here. The hut is clean, and you will find it has most of the things you need. If you want fresh food, just <b>follow your nose</b>s and you will find villagers happy to sell or trade what they have.",
+        "responses": [
+            3,
+            3,
+            "neither"
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "How are you supposed to think when you're so scared",
+        "Input.gen2": "She tried to calm herself and regain her composure",
+        "Input.gen3": "She took a deep breath, calmed down, and got back to work",
+        "Input.narrative": "And finally she gave in to the galloping fear inside her and sobbed out loud. She had never, ever, felt so desolate and alone. In the end, though, she cried herself out. And when she'd gasped to a stop, she found that she could think a little. Listen, girl. You've got to <b>get a grip</b>.",
+        "responses": [
+            1,
+            2,
+            "all"
+        ],
+        "majority": "inconsistent"
+    },
+    {
+        "Input.gen1": "I'm not the best at doing hair",
+        "Input.gen2": "Do not bother trying to do my hair, it will take forever take up all of your time",
+        "Input.gen3": "Do yourself a favor and find a new hairdresser",
+        "Input.narrative": "Now, again, I must insist that I be permitted to retire. And not waiting for a response from mrs. Voss, cartier swept out of the room. Tsch! Good riddance! Miss nancy spoke with disgust. Amelia, I dont know why you <b>put up with</b> her; surely you can find someone else who can do up your hair to your satisfaction.",
+        "responses": [
+            3,
+            3,
+            "neither"
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "I can't do anything else",
+        "Input.gen2": "Ceo's going to make a speech to the staff about how they have to work harder and be",
+        "Input.gen3": "Has permission to make changes is ready to work can work with the team can make a",
+        "Input.narrative": "Do you really think you can get away with this? This paper comes out because I and the other cogs in the machinery work our backsides off. The board is going to - \"\"the board is going to do as I say. I'm here to revamp this paper. I have a carefully worded agreement that gives me the right to make far-reaching editorial changes at section editors\"level. I can get rid of the <b>dead meat</b> and recruit new blood from outside if I choose.",
+        "responses": [
+            "neither",
+            2,
+            "neither"
+        ],
+        "majority": "neither"
+    },
+    {
+        "Input.gen1": "I agreed, excited to start the project",
+        "Input.gen2": "The project will go forward",
+        "Input.gen3": "I have to get something done, so I better get started",
+        "Input.narrative": "Probably,\" I answered. \" Good. I'm gon na do that today. And tell the two couples I have on the hook that they got ta get their shit sorted by end of business. Get that nailed down, get your deposit. If you <b>give the go ahead</b> on the photos, I 'll move on the dorchester.",
+        "responses": [
+            1,
+            1,
+            1
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "The lawyers had to pay for the damages, so they agreed to pay it",
+        "Input.gen2": "The cost to the firm was quite substantial",
+        "Input.gen3": "Was the only one who would pay-the cost of the case and the lawyers fees",
+        "Input.narrative": "\"Twenty-five thousand to each of the fifteen?\"\" Arthur asked, his unflappable demeanor cracking under the assault from two sides of the courtroom. \"\" That's right.\"\" A fierce huddle ensued in which each of the four drake and sweeney lawyers had his say. It was telling that they did not consult the attorneys for the other two defendants. It was obvious the firm would <b>foot the bill</b> for the settlement.”",
+        "responses": [
+            2,
+            3,
+            2
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "We should be proud of what we have accomplished",
+        "Input.gen2": "It was time for her to take control of the situation",
+        "Input.gen3": "She had worked hard for it",
+        "Input.narrative": "A sour-looking woman asked, with a hint of glee in her tone. Faith stiffened. All eyes turned to her mother, whose cheeks turned red. Knowing what it was like to take the brunt of pain and anger for someone else's actions, liza actually felt sorry for her. Lanie drew her shoulders back and faced the room. \"\" If the house had to <b>change hands</b>, I'm glad it's with my daughter now,\"\" she said, holding her head high.",
+        "responses": [
+            "all",
+            "all",
+            2
+        ],
+        "majority": "all"
+    },
+    {
+        "Input.gen1": "I will ensure that they are taken care of in whatever way is most convenient",
+        "Input.gen2": "Matters were not going well for me as I was getting older",
+        "Input.gen3": "I will be responsible for them until they are of legal age",
+        "Input.narrative": "As you know, I am acquainted with many. While it's common for families to take in the children of sisters and brothers, it is entirely the father's and mother's choice if the parents are alive and competent. Since margaret is no longer with us, I 'll have to speak for her. No, my children will not live with you, edward. I 'll not have cat and andrew turned into stiff-necked prigs who need a pulley system in order to bow their heads. I have already ensured that if I <b>shuffle off this mortal coil</b> before my children are of age, either my brothers-elliot, patrick, or steven-or my sister, ainsley, will have care of them.",
+        "responses": [
+            1,
+            1,
+            1
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "I am very good at a lot of things",
+        "Input.gen2": "- I can do anything you want, even if its not what i'm best at",
+        "Input.gen3": "I have many different skills so I can do anything",
+        "Input.narrative": "What do I do here?\"He looked around, standing tall and towering over the edge of all of the cubicle walls, able to see everything, she imagined, like looking at the top of a labyrinth. Elsa happened to walk by and said, \"the better question is, what doesn't siggi do here?\"They both shared a laugh, lydia a bit puzzled. He turned back and said, \"i am sort of, oh, what do you say? A <b>jack of all trades</b>.",
+        "responses": [
+            3,
+            "all",
+            "all"
+        ],
+        "majority": "all"
+    },
+    {
+        "Input.gen1": "If he got upset, she didn't want him to watch her emotions get the better of her",
+        "Input.gen2": "Russ was so angry that he couldn't even think straight",
+        "Input.gen3": "Don't worry about russ, she is really good friends with patti hopefully patti and",
+        "Input.narrative": "But patti leaned close, obviously hanging on every word. Hannah almost denied it. Then she remembered what gabe had said when he was lying next to her yesterday. If they say we're sleeping together, we say, damn right, as often as possible. Where can they go after a response like that? Hannah was fairly certain russ would <b>go ballistic</b>, but she didn't care.",
+        "responses": [
+            1,
+            1,
+            1
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "Jayson was a very generous individual",
+        "Input.gen2": "Had helped her out of a jami",
+        "Input.gen3": "He helped her out of the situation dealing with the police",
+        "Input.narrative": "As far as jayson was concerned, brian stone had a legal presumption of innocence unless and until twelve impartial jurors declared him guilty. He also took very seriously his obligation to prevent them from reaching such a verdict. Jayson reached into his briefcase, grabbed a fresh legal pad and a couple of folders, and dropped them on the table. He eased his hand inside the pocket of his suit and retrieved a gold-plated pen engraved with his initials. He examined the pen and snickered, remembering he had received the expensive gift several years before from a grateful client with a long history of arrests for shoplifting. Jayson had helped the woman <b>beat the rap</b> on a technicality.",
+        "responses": [
+            3,
+            3,
+            3
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "It was so heavy that she had to put it down",
+        "Input.gen2": "He had been running all day and all night",
+        "Input.gen3": "Wanted to find out more about this person",
+        "Input.narrative": "\"\"There you are! You're so late! Where have you been?\"\"She popped out of the small back room, the baby balanced on her hip and a heap of tartan cloth clutched to her chest. She leaned over it to kiss him briefly, leaving him with a tantalizing taste of plum jam. \"\"I've been riding <b>up hill and down dale</b> for the last ten hours,\"\"he said, taking the cloth from her and tossing it onto the bed.",
+        "responses": [
+            2,
+            "neither",
+            "neither"
+        ],
+        "majority": "neither"
+    },
+    {
+        "Input.gen1": "You have to understand that people act differently around you, sometimes they get really heated",
+        "Input.gen2": ",he said, you'd be surprised how well that works",
+        "Input.gen3": "She was really upset and wanted to talk about it",
+        "Input.narrative": "She walked down the staircase and waited for more of an explanation. She kind of worked hard through the year and was definitely expecting performance rating at this years appraisal cycle. Her colleague made a snarky remark from the left . ‘Don't <b>thumb your nose at</b> the boss if you want to keep your job and get a better rating!",
+        "responses": [
+            1,
+            "neither",
+            "neither"
+        ],
+        "majority": "neither"
+    },
+    {
+        "Input.gen1": "They would be very rich",
+        "Input.gen2": "She was so desperate for the money, she was willing to go to any lengths",
+        "Input.gen3": "Rich as hell women could get away with paying for sex",
+        "Input.narrative": "The hands might not mind hanging around for supper and entertaining the female customers. Although, that might open a whole new can of worms. Would they expect to get paid for their time? She pictured Ethan and autumn building a bunkhouse for studly cowboys somewhere on the property and running a reverse bordello. Rich eastern women could fly in and pick their man for the weekend. They'd <b>make money hand over fist</b>.",
+        "responses": [
+            1,
+            3,
+            1
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "But how did he do it without using a computer",
+        "Input.gen2": "Find out ways to solve problem",
+        "Input.gen3": "He had to solve the problem in a specific way",
+        "Input.narrative": "Bob: “I don't know how to solve this thing. I have spent some time on it now. Wait, Matt already solved that  equation?\"Betty: \"Yes! I have no idea how he did it, but he sure <b>cut the gordian knot</b>.“",
+        "responses": [
+            1,
+            3,
+            1
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "You will never stop researching or trying new things",
+        "Input.gen2": "I was determined to learn everything about herra and I was not going to stop until I had",
+        "Input.gen3": "Never give up in pursuing your dreams",
+        "Input.narrative": "I asked in a soft voice, trying to reach out to him. \"Are you guys dating seriously\" Logan let out a bitter laugh. \"I suppose I do feel Jim is a nice bloke and I really feel attached to him. Is there a problem?\", \"Not at all, I guess I was curious because I know you, gypsy girl. Once you <b>get your teeth into</b> something, you never let go.",
+        "responses": [
+            3,
+            1,
+            1
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "The plan was not working",
+        "Input.gen2": "We have to think outside the boxis suggestion",
+        "Input.gen3": "We have to come up with something new, something totally new",
+        "Input.narrative": "The other was so passively happy they were unburdened by childhood playground-pushers they were willing to forgive their sneaky bombers from below the border. The fact it was vamps and wolves who'd done the destruction was irrelevant. The plan should've worked! What do we do now? Trudy asked the room. I think we should <b>think outside the box</b> Philip said and the others just stared at him.",
+        "responses": [
+            3,
+            3,
+            3
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "Knew she would be careful about who she let near her again",
+        "Input.gen2": "I would never do that again",
+        "Input.gen3": "Never want to hurt her again be careful effecting others not to make her vulnerable",
+        "Input.narrative": "His hands were on my arms, and he started stroking softly, a soothing motion, his face nuzzling into the spot just behind my ear. \"\"I didn't think of it like that. I thought it was harmless, because it didn't mean anything to me, but I'm sorry if it hurt you. You're right, that's not harmless, and it won't happen again. Just understand this, even if we weren't together, I'd never go near her again, not like that. I know that woman too well to ever want to <b>lay a finger on</b> her, okay?",
+        "responses": [
+            "all",
+            3,
+            3
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "You don't need to overdo it",
+        "Input.gen2": "I'm not sure what you mean by that",
+        "Input.gen3": "I know you love to feed the family but please keep it within reason",
+        "Input.narrative": "Macon seemed amused. \"As you wish. Speaking of kitchen, I am absolutely ravenous. I 'll go see what she has whipped up for us.\"Even as he spoke, I could hear the pots and pans banging in some faraway room off the ballroom. \"Don't <b>go overboard</b>, uncle m.",
+        "responses": [
+            3,
+            "all",
+            "all"
+        ],
+        "majority": "all"
+    },
+    {
+        "Input.gen1": "Foy had to pay the bill, but he would be reimbursed by midstate",
+        "Input.gen2": "We should hire a professional to do the questioning",
+        "Input.gen3": "He agreed to pay for the scholar to come to the showcase until the bill was paid",
+        "Input.narrative": "He turned to chris. \"\" Now, chris, whom should we bring in to settle the question of authenticity? That should be our first step, don't you think?\"\" Chris thought, that's exactly what I wanted to do in the first place. She named the scholar who had been recommended by an old grad school friend. Foy offered to <b>foot the bill</b> to bring him to midstate as soon as possible.",
+        "responses": [
+            1,
+            3,
+            1
+        ],
+        "majority": "baseline"
+    },
+    {
+        "Input.gen1": "Worked long hours with little pay is made up of long hours with little pay",
+        "Input.gen2": "The management has been very cruel to the staff",
+        "Input.gen3": "They are just tired of the shitty work environment",
+        "Input.narrative": "The management is really really cruel. The wages are below minimum wage limit. Many of the staff left due to this reason. The few staff who are still with us are growing tired of the <b>jam tomorrow</b> discourse, while having to endure longer hours with less pay.",
+        "responses": [
+            "neither",
+            3,
+            3
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "This is about family and legacy",
+        "Input.gen2": "S a case about how you should live your life",
+        "Input.gen3": "Is a case of family ties that should be honored",
+        "Input.narrative": "Daisy was too stunned to speak. Ethan looked enquiringly at her and she shook her head at the injustice of it all. ' It's not what you are. It's who you know,\"slipped out of her mouth. ' Connections do cut through a lot of time-wasting,\"he remarked. ' But this isn't a case of <b>jobs for the boys</b>.",
+        "responses": [
+            "neither",
+            1,
+            1
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "He was commanding me to get started on a task that I wasn't qualified for",
+        "Input.gen2": "He was commanding me to work hard",
+        "Input.gen3": "He told me to get my teeth into it and I would be happy",
+        "Input.narrative": "I was not having any nice project for months which made my productivity suffer. At some point I decided I will resign amd went to meet my boss. Once I explained him my situation he was surprised. Immediately dismissing my wishes he sternly exclaimed I'd like you to <b>get your teeth into</b> this new project I'm developing.",
+        "responses": [
+            2,
+            "neither",
+            "neither"
+        ],
+        "majority": "neither"
+    },
+    {
+        "Input.gen1": "We should keep it simple, after all",
+        "Input.gen2": "I want just a simple service",
+        "Input.gen3": "I want just a simple funeral",
+        "Input.narrative": "“The environment was grim. Sadness was evident on every family members face. As Peter entered through the door teary eyed, Mom sighed When I <b>go west</b>, I don't want any elaborate funeral services in my honor, OK?'”",
+        "responses": [
+            "all",
+            "all",
+            "all"
+        ],
+        "majority": "all"
+    },
+    {
+        "Input.gen1": "We must decide what to do now",
+        "Input.gen2": "She decided to take the leap",
+        "Input.gen3": "just do it, you won't be sorry",
+        "Input.narrative": "He's obviously got a history of being reckless...\"\" she looked away as she trailed off. \"\" I know. I want to trust him, but it's not just me at stake.\"\" \"\" The way I see it is you have a few more months. Give yourself some more time. If you still feel the same away about him when the time comes to sign the lease, then <b>take the plunge</b>.”",
+        "responses": [
+            "neither",
+            "neither",
+            1
+        ],
+        "majority": "neither"
+    },
+    {
+        "Input.gen1": "The mystics will have to be careful not to cross the line",
+        "Input.gen2": "Lingerie had been found guilty of first-degree murder",
+        "Input.gen3": "Assesing the situation, they decided to ignore the mystics and go with the flow",
+        "Input.narrative": "Shelly was at the van, yelling at her camera guy to make room for us. \"What did you find out?\"He asked, and I met his eyes, letting him see my worry. Besides them wanting to force me to talk to their goddess splinter? \"They're using the mystics to intentionally kill the masters. Maybe they think the living will <b>toe the line</b> once they realize there won't be a second life waiting for them.",
+        "responses": [
+            1,
+            3,
+            "neither"
+        ],
+        "majority": "inconsistent"
+    },
+    {
+        "Input.gen1": "Be honest and say you don't know",
+        "Input.gen2": "I had to choose between the two",
+        "Input.gen3": "Do the right thing and stand up for yourself",
+        "Input.narrative": "I reached out for his shoulder. When my fingers rested there, he froze. Shoulders tense, he turned, looking down at me. \" What's right, abby? It's not a hard question. Either condemn me or condone me, but don't <b>sit on the fence</b> and pretend to be something you're not.",
+        "responses": [
+            3,
+            2,
+            2
+        ],
+        "majority": "baseline"
+    },
+    {
+        "Input.gen1": "She thinks he is a bad person",
+        "Input.gen2": "She thinks he is a pervert worse",
+        "Input.gen3": "She was wrong about this",
+        "Input.narrative": "Why? Why does he want to humiliate me? Isn't breaking up with me enough?\"\"She bangs her fists on the desk. \"\"He's a satanist!\"\"She probably means \"\"sadist,\"\"although for once, option number two isn't all that <b>wide of the mark</b>.",
+        "responses": [
+            1,
+            1,
+            "all"
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "I think it's a very good idea, and i'm sure the book will do well",
+        "Input.gen2": "We should not judge the book by its cover",
+        "Input.gen3": "This is a very common problem",
+        "Input.narrative": "It took him almost two and half years to draft this autobiography which obviously increases the eagerness and curiosity of the publisher. Then he finally sent out the proposal. After reading it carefully , Mark the head of the publishing house said I don't know how I feel exactly. As a whole, it rather <b>smells of the lamp</b> to me.'”",
+        "responses": [
+            2,
+            "neither",
+            3
+        ],
+        "majority": "inconsistent"
+    },
+    {
+        "Input.gen1": "We need to leave as soon as possible",
+        "Input.gen2": "Come on, you lazy bones, get up and move!",
+        "Input.gen3": "I want to see how fast I can run",
+        "Input.narrative": "“Last night was really amazing. The party ended very late around 3 AM. I am loving this vacation', I said. We have to get on the road soon. Come on, you lazy bones, <b> show a leg </b>!', Teresa replied”",
+        "responses": [
+            1,
+            1,
+            1
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "Help me out here, i'll pay you back later",
+        "Input.gen2": "He was going to be fine, he had a plan for his life",
+        "Input.gen3": "Needed help to get out of bed was on the same page and ready to go helped",
+        "Input.narrative": "I've got my food processor and a blender, thats enough gadgets for me to be going on with. I don't want anything nasty leaking out in my kitchen. They are quite safe, you know, these days, continued mr bartlett as if hilda hadn't spoken, and you can use them for all sorts of things, microwave meals, defrosting stuff, nice scrambled eggs. He had eaten half of his egg on toast, and pushed the remainder away with an expression of distaste. Hilda pursed her lips. This one was too healthy to pop his clogs in the middle of the night, he might need a bit of help to <b>shuffle off this mortal coil</b>.",
+        "responses": [
+            "neither",
+            "neither",
+            "neither"
+        ],
+        "majority": "neither"
+    },
+    {
+        "Input.gen1": "The words were so big it would make them think it would be a good idea to do it",
+        "Input.gen2": "They were worried that they wouldn't be able to finish the project",
+        "Input.gen3": "We had to be very careful with how we were communicating",
+        "Input.narrative": "It's the oldest trick in the book. You get the punt- you get others so deeply involved that they don't dare fold. It's the dream, you see? They think if they stay in it 'll all work out. They daren't think it's all a dream. You use big words to tell them it's going to be <b>jam tomorrow</b> and they hope.",
+        "responses": [
+            1,
+            "neither",
+            3
+        ],
+        "majority": "inconsistent"
+    },
+    {
+        "Input.gen1": "She advised everyone to be prepared",
+        "Input.gen2": "She prepared for the storm by making sure she and her son were warm and dry",
+        "Input.gen3": "We had to prepare for the changes aheadut the timescalesut the change",
+        "Input.narrative": "\"\"No way,\"\"hayley said, \"\"izzy already ruled out the joining the family thing.\"\"* * * Jason's mom took the news about clemson in stride although it was obvious she'd hoped he was going to stay close. They'd talked about her moving south, but she wasn't ready to move again so soonthey left it as a possibility for later. Most surprisingly, she was truly glad I was going with him. All along I hadn't given much thought to what would happen after high school, but now, jason and I had a future and that glow insidethe one that happened when he was with mea part of that was always there now. It hadn't snowed since the big storm, but there were flurries in the forecast and according to jason's mom, when the weatherman predicted flurries you'd better <b>batten down the hatches</b>especially in december.",
+        "responses": [
+            2,
+            1,
+            2
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "I was willing to let it go and not make a big deal of it",
+        "Input.gen2": "I decided to take it and became a part of the team",
+        "Input.gen3": "I have decided to keep the smile despite it being stupid",
+        "Input.narrative": "Gabriel called out \"\"a moment please.\"\"He leaned down and whispered, \"\"that will never do, my dear.\"\"\"\"What?\"\"\"\"I know that fake smile and I refuse to have it in our first official picture.\"\"\"\"I can't help how I smile, gabriel. <b>take it or leave it</b>.\"\"",
+        "responses": [
+            1,
+            "neither",
+            "neither"
+        ],
+        "majority": "neither"
+    },
+    {
+        "Input.gen1": "I would do whatever to get out of there",
+        "Input.gen2": "I would laugh so hard that I would be sick",
+        "Input.gen3": "I would do whatever to get money",
+        "Input.narrative": "Do you have a house, mr. Fenner?\"\"Yes I do,\"fenner said promptly. \"A very fine one in greenwood. And if you are going to ask me what I would do or how I would feel if our positions were reversed, I 'll be very frank. I would twist the city's tit for all I could get and then <b>laugh all the way to the bank</b>.",
+        "responses": [
+            2,
+            3,
+            3
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "Don't be afraid to speak up and say what you believe",
+        "Input.gen2": "You can't be a fence sitter",
+        "Input.gen3": "Don't pretend to be something you're not",
+        "Input.narrative": "I reached out for his shoulder. When my fingers rested there, he froze. Shoulders tense, he turned, looking down at me. \"What's right, abby? It's not a hard question. Either condemn me or condone me, but don't <b>sit on the fence</b> and pretend to be something you're not.",
+        "responses": [
+            1,
+            2,
+            1
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "He guards were firing at random, so the only option was to hide",
+        "Input.gen2": "Had they not been so shadowy, they would have been easy targets",
+        "Input.gen3": "He had to find a way to survive",
+        "Input.narrative": "Mcallister stared straight ahead, the oncoming headlights creating shadows rushing across his face. ' May god have mercy on my soul,\" he whispered. 4 screams suddenly filled the darkness, an approaching, growing cacophony of roaring voices. Then surging bodies were all around them, racing ahead, shouting, faces contorted in frenzy. Webb fell to his knees, covering his face and neck with both hands as best he could, swinging his shoulders violently back and forth, creating a shifting target within the circle of attack. His dark clothes <b>were a plus</b> in the shadows but would be no help if an indiscriminate burst of gunfire erupted, taking at least one of the guards with him.",
+        "responses": [
+            3,
+            2,
+            1
+        ],
+        "majority": "inconsistent"
+    },
+    {
+        "Input.gen1": ": Because I was thinking of ways to solve this problem in a peaceful way",
+        "Input.gen2": "Billy had a plan to make sure he didn't get upset",
+        "Input.gen3": "I had always planned to confront him about the business at a later date",
+        "Input.narrative": "And well, maybe there was a legitimate chip on his shoulderid be pissed too if someone bought me out just before business skyrocketed. But really, what was billy to do? He was well over fifty, had built the business along side ned from the ground up; it was all he knew. With a mortgage and an aging father to look after, not to mention two kids in college from his former marriage, he had to keep working for ned. Thats why I packed the heat. Just in case I needed some motivation for him to calm down should he be inclined to <b>go ballistic</b> on me.",
+        "responses": [
+            "neither",
+            "all",
+            3
+        ],
+        "majority": "inconsistent"
+    },
+    {
+        "Input.gen1": "One's business can go from start to finish in a matter of days",
+        "Input.gen2": "D no clue how to start a business",
+        "Input.gen3": "Found it very interesting",
+        "Input.narrative": "The desert, the sun, two gloss coats of Ephebian Retsina on his stomach lining and a bottle of wine were getting together to beat up his synapses. ' I must\"\" say,\"\" he managed, leaning on the rail, 'You're doing all right for yourself. ' ' It's okay,\"\" said Chidder. ' Commerce is quite interesting. Building up markets, you know. The <b>cut and thrust</b> in the privateering sector.",
+        "responses": [
+            1,
+            1,
+            "neither"
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "The people who are in control are not happy with how things are going",
+        "Input.gen2": "We need to have more participation from the other teams",
+        "Input.gen3": "Had enough and wanted someone new to take over",
+        "Input.narrative": "This bank has 21 executive directors on the committee. No surprise, then everyone on that committee wants to be in charge.  We'll never finish this project if everyone keeps trying to give orders. <b>Too many chiefs and not enough Indians</b>",
+        "responses": [
+            1,
+            1,
+            2
+        ],
+        "majority": "baseline"
+    },
+    {
+        "Input.gen1": "She didn take the pills, and was happy that she didn;t have to deal with a",
+        "Input.gen2": "Wanted to avoid pregnancy",
+        "Input.gen3": "If she didn't take the pills she would get pregnant and throw off her regular period",
+        "Input.narrative": "And now her mother knows diane didn't greet her daughters after arriving home which was unusual for her. She was tired and weary from working. She had worked a double shift at the hospital and then worked on her day off waitressing because the new girl hadnt showed up. She was beyond exhausted and hearing congratulations from one of her co-workers about the new addition to her family wasnt something that she expected to hear. Cami was supposed to be taking birth control pills so this whole pregnancy rumor couldn't be true. She knew that she and river were getting really close, and she didn't want her to get pregnant so the pills <b>were a no brainer</b>.",
+        "responses": [
+            3,
+            3,
+            3
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "Roughing it would have been the right thing to do",
+        "Input.gen2": "I would have been devastated, and my life would have been very different",
+        "Input.gen3": "I was very upset with myself for not being able to save her",
+        "Input.narrative": "I sat next to her, placing the hot mug against her purple lips as she shivered. When she didn't even acknowledge me, I tried again. \"Sienna, please. I need you better.\"Without looking at me, she slowly parted her lips, sipping slowly. Watching her now, I wondered how things would have gone for me if I had found her <b>dead in the water</b> instead.",
+        "responses": [
+            "neither",
+            2,
+            2
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "I am not sure what I was expecting from you",
+        "Input.gen2": "He decided to keep his mouth shut",
+        "Input.gen3": "Was so afraid of being disliked by the person you love",
+        "Input.narrative": "Oh, I am sorry, said antonia. But mr. The pratt, I do think it was a bit presumptuous of you to comment on my attire after such a short acquaintance. Peregrine pratt was already regretting his opening remarks. He had been talking to this girl for all of thirty seconds and he hadnt screamed or shouted once. Could she be the first true love of his life? When you are hideous as him and romance strikes, the last thing you need is to open your mouth and <b>put your foot in it</b>.",
+        "responses": [
+            2,
+            2,
+            2
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "I was trying to make a point to him that nobody is perfect",
+        "Input.gen2": "Had I not been gentle, things could have turned out very differently",
+        "Input.gen3": "I was just venting about my brother and how he was a big baby",
+        "Input.narrative": "No wonder you never made sergeant when you were in the police force. Got passed down for your brother too, didn't you?\"\"Chico immediately stiffened. Slowly he swerved to look at me, his face grim and his jaw taut. \"\"Where'd you hear that?\"\"\"\"Oh I'm sorry, did I <b>touch a nerve</b>?”\"",
+        "responses": [
+            "neither",
+            1,
+            1
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "We must decide not to use the opportunity",
+        "Input.gen2": "She felt she was in a quandary",
+        "Input.gen3": "I wish we could do something about it, but there's just no time",
+        "Input.narrative": "Her cheeks burned as if he'd slapped her. \"I've never lied to you.\"\"We're supposed to have a meeting in washington d.c. On friday with top military people, the secretary of state, and ambassadors from three foreign countries.\"The demonstration she dreaded. \"I'm aware.\"\"That opportunity may be <b>dead in the water</b>.",
+        "responses": [
+            3,
+            3,
+            2
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "We should follow his lead and investigate",
+        "Input.gen2": ": Do what you see, and not what you hear",
+        "Input.gen3": "The only reason he did not go straight to the source was because he knew the source would be suspicious",
+        "Input.narrative": "You call yourself a werewolf? You're nothing more than a good for nothing -- aha! Chase interrupted as if he never heard declans rant. Either that, or he was smart enough to ignore him. Right we go. As gandalf always says, when in doubt, peregrin took, <b>follow your nose</b>.",
+        "responses": [
+            3,
+            "neither",
+            1
+        ],
+        "majority": "inconsistent"
+    },
+    {
+        "Input.gen1": "He had been so angry at the situation that he couldn't stop himself from getting into an argument",
+        "Input.gen2": "He was determined to show no mercy to his opponent",
+        "Input.gen3": "He was determined not to let it get him",
+        "Input.narrative": "It was all just blatant homophobia. And it seemed to die down after a while. Couldn't you have just ignored it? Yes, it died down... till the following year at Wimbledon. Lee clutched his brow what an idiot he was forgetting about another painful raw nerve. But it was Lewis who had mentioned it .Lee had only provided the opening, so he decided to <b>grasp the nettle</b> and see how badly it stung.",
+        "responses": [
+            2,
+            2,
+            "neither"
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "The next day, she was on her way to a place she knew very well",
+        "Input.gen2": "Leaving the party earlyenceownown the partyenceof the party",
+        "Input.gen3": "She had to get up and move things on she was tired of sitting here",
+        "Input.narrative": "I don't want to talk about it anymore, not one word. Heres to you, clare, to your birthday, and what it may bring! They toasted again, and the subject was neatly turned onto clare, who was content to remain on it for the rest of the evening, once it was established that ravella must stay the night. Her plan was to leave the next day and retreat to an aunts in devonshire to lick her wounds. Really, ravella should have gone upon the stage, or appeared in films, because the entire melodrama was a fabrication from beginning to end, a ruse to secure herself at clares at that critical time, and to ensure her escape route the next day. She sprang <b>up with the lark</b>, while her friend lay fast asleep under the weight of the previous evenings indulgences.",
+        "responses": [
+            3,
+            1,
+            3
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "I didn't say anything else, I just listened to the guy and took my leave",
+        "Input.gen2": "I was not going to get involved, I was just a bystander to the drama",
+        "Input.gen3": "I didn't say a word",
+        "Input.narrative": "She was wearing a real git up. Red and black. The guy she was with-a real looker but kinda rough. Yeh, thats him. He ordered corona and was kinda mean to her. I wanted to tell her to <b>take a powder</b>, that no guy that treats a woman like that is worth it, but I minded my own business.\",",
+        "responses": [
+            2,
+            2,
+            2
+        ],
+        "majority": "baseline"
+    },
+    {
+        "Input.gen1": "Was so scared that he could barely stand up; he was so scared that he could barely stand",
+        "Input.gen2": "Zane and ty were at odds",
+        "Input.gen3": "He couldn't believe how cruel they were being towards him",
+        "Input.narrative": "So ty had come over here on the off chance zane had tried to walk it or gotten someone to drive him by for clothes or something. And again, nothing. Ty was scared and angry. He didn't like worrying like this. He didn't like the abject terror that came with knowing zane was practically helpless without his sight. And he definitely didn't like knowing that these kids, these stupid, spoiled psychopathic teenagers who were killing people <b>left and right</b>, had it out for him and zane.",
+        "responses": [
+            3,
+            "neither",
+            "neither"
+        ],
+        "majority": "neither"
+    },
+    {
+        "Input.gen1": "They will be expected to cover for each other and explain away any mistakes that are made",
+        "Input.gen2": "They would have to explain everything to the publicind of the police",
+        "Input.gen3": "The media is the one who should be blamed",
+        "Input.narrative": "The media will work together or not at all. After the scoop happens it becomes a circus and they all take the common stand. Nobody wants to be the lone voice and end up looking stupid. They wear that for years and it becomes very hard to shake. A story like this is tailor made for manipulation because it puts them all under the microscope. The police will also rush onto the front foot because they look pretty bad as well. The media will pass the buck to them and they will <b>be left holding the baby</b>.",
+        "responses": [
+            3,
+            "all",
+            3
+        ],
+        "majority": "baseline"
+    },
+    {
+        "Input.gen1": "He police had to be extra vigilant to keep people safe",
+        "Input.gen2": "Violence was everywhere and no one could be sure what was going to happen next",
+        "Input.gen3": "I was really scared of being around people after that",
+        "Input.narrative": "And he had to admit, some days it seemed as if they were fighting a losing battle. The crime rate had skyrocketed. Over a hundred and fifty people had been murdered the previous year, but the d.a. 's office had managed to secure only three homicide convictions. The system had clearly broken down, and there were sections of the city that even cops didn't dare enter. Lawlessness prevailed, the kind of mind-sick violence that left people <b>on edge</b> .”",
+        "responses": [
+            2,
+            2,
+            2
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "What did you do",
+        "Input.gen2": "You have to tell it like it is",
+        "Input.gen3": "Don't play dumb and just tell me the truth",
+        "Input.narrative": "Her eyes search my face for a second before I turn away from her. \"Hey, baby girl,\"I mumble, taking a drink of my coffee, setting my elbows down on the counter. \"Okay, spill it,\"she says, raising an eyebrow. \"Spill what?\"\"Oh lord. Don't <b>play dumb</b>.",
+        "responses": [
+            2,
+            "all",
+            3
+        ],
+        "majority": "inconsistent"
+    },
+    {
+        "Input.gen1": "I'm having so much fun I don't even care about the other people in the bar",
+        "Input.gen2": "I'm on my way to a good lie, and he's on his way to another",
+        "Input.gen3": "I'm having so much fun right now",
+        "Input.narrative": "I scroll over his green eyes, his full lips, and his knee that is only inches away from mine. It's unnerving, yet, comforting, which makes absolutely no sense. Half of me is attracted to him, like metal to a magnet, while the other half is repelled by him, like oil and water. \"There's just something about how you look that seems familiar.\"My third lie in the last minute. I'm <b>on a roll</b>.",
+        "responses": [
+            1,
+            1,
+            3
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "Ina refused to pay and was ejected from the park",
+        "Input.gen2": "I took it and was on my way",
+        "Input.gen3": "You really have no choice but to pay the price for what you heard",
+        "Input.narrative": "Wanda and I had to wear our hats. I pointed out to wanda that they were a really good disguise, as everyone would look at the hats and no one would notice who was stuck underneath them, not even nosy nora. Before long before we were all at the ticket office in the old gatehouse to water wonder- land with aunt tabby saying in a loud voice, \"how much?\"The man selling the tickets was none other than old morris. His little beady eyes stared at aunt tabby and he growled, \"you heard, lady. <b>take it or leave it</b>. ``",
+        "responses": [
+            2,
+            2,
+            2
+        ],
+        "majority": "baseline"
+    },
+    {
+        "Input.gen1": "I had to explain everything to them",
+        "Input.gen2": "He expected me to explain everything to them in great detail",
+        "Input.gen3": "Anna was not going to give an exact answer to every question, it was just how they worked together",
+        "Input.narrative": "This applied to his private life as well as his professional counterpart. He even thought that this characteristic was actually responsible for his sad domestic relationship with his family, yet he could not rid himself of the compulsion. I see. What You've said worries me. The explanation you give to my staff is crucial to how things may unfold. For example, as ive not been interviewed in depth about the actual murder case by the person who is suspending me, the police union will require <b>chapter and verse</b> on this breach of protocol.",
+        "responses": [
+            "neither",
+            1,
+            2
+        ],
+        "majority": "inconsistent"
+    },
+    {
+        "Input.gen1": "I agreed, but only if it would be suitable for my situation",
+        "Input.gen2": "This is how I will be remembered, says the will",
+        "Input.gen3": "I will just go out and be a normal person and not worry about them",
+        "Input.narrative": "“The environment was grim. Sadness was evident on every family members face. As Peter entered through the door teary eyed, Mom sighed When I <b>go west</b>, I don't want any elaborate funeral services in my honor, OK?'”",
+        "responses": [
+            2,
+            "neither",
+            "neither"
+        ],
+        "majority": "neither"
+    },
+    {
+        "Input.gen1": "Is capable of express his feelings is capable of using words has right to be angry has",
+        "Input.gen2": "I'm going to win this",
+        "Input.gen3": "He has no right to make a scene",
+        "Input.narrative": "He stops cold, whirls wild-eyed at the defense table, then walks even faster from the courtroom. As his boys scramble around him, drummond is on his feet. \"Your honor, may we approach the bench?\"Kipler waves us up where he is to huddle away from the microphone. My opponent is pretending to be incensed. I'm sure he's surprised, but he has no right to <b>cry foul</b>.",
+        "responses": [
+            3,
+            2,
+            3
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "He was lucky he made so little",
+        "Input.gen2": "Lucky luciano made much more money by doing other things such as fixing cars or selling drugs",
+        "Input.gen3": "Lucky luciano was not going to give up until he got his money",
+        "Input.narrative": "I...\"\"\"\"i 'll ask you once more. How much did you make by taking that dive?\"\"The boy hesitated. \"\"A thousand dollars.\"\"Lucky luciano laughed. \"\"That's <b>chicken feed</b>.",
+        "responses": [
+            "neither",
+            2,
+            2
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "If the rebels are smart they will not be waiting for us, they will be ready to move out",
+        "Input.gen2": "We have to do this as quickly as possibleay can be found",
+        "Input.gen3": "They would run away from the police and the military they would not be able to defend themselves",
+        "Input.narrative": "Cladius let out a booming laugh and grinned. \"\"I know what you mean, I am gon na take a bath the instant we are back home.\"\"\"\"Well we won't be getting home unless we finish this mission. What do we need to do today?\"\"\"\"Well,\"\"cladius began, \"\"we need to verify somehow that the rebel's have holed themselves up in the mine. We also need to do this quickly, because if they get a whiff of us being here they will <b>go to ground</b> and we will fail.",
+        "responses": [
+            3,
+            2,
+            1
+        ],
+        "majority": "inconsistent"
+    },
+    {
+        "Input.gen1": "We need to get as many people as we can on board so that we can make a solid case",
+        "Input.gen2": "Here is the list of people to contact",
+        "Input.gen3": "The people they are looking for are the people who are loyal to them",
+        "Input.narrative": "There was a long silence. \"\" They know me,\"\" froelich said, quietly. Bannon nodded. \"\" I'm sorry, folks, but as of now the fbi is looking for secret service people. Not current employees, because current employees would have been aware of the early arrival of the demonstration threat and would have acted a day sooner. So we're focusing on recent ex-employees who still <b>know the ropes</b>.",
+        "responses": [
+            1,
+            1,
+            1
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "I guess i'm just getting old",
+        "Input.gen2": "It was a long time since i'd been in a physical fight",
+        "Input.gen3": "He was not young anymore and had to grow up quickly",
+        "Input.narrative": "Good morning, young lady, he said, yawning massively. You're just in time for the activation. He stood and stretched himself out, making his joints crack. Damn! He exclaimed. I sure as hell ain't <b>no spring chicken</b> any more.",
+        "responses": [
+            1,
+            1,
+            1
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "We just have to deal with the situation we have right now he continued",
+        "Input.gen2": "It was the right choice",
+        "Input.gen3": "Is used to improve the quality of life has is made of water has water has",
+        "Input.narrative": "We need food, but many need something more vital: a reason to eat. Vermillion had built a greenhouse to grow food for the slaves. Its incredibly efficient. It has genetically modified plants, grows all kinds of things, feeds far more than it should. He had the slaves put traps in the forest for game too. The system worked, so theres no reason to change it .No need to <b>throw the baby out with the bathwater</b>.",
+        "responses": [
+            2,
+            2,
+            1
+        ],
+        "majority": "baseline"
+    },
+    {
+        "Input.gen1": "He had a reputation for being strict with his women",
+        "Input.gen2": "I don't know why I have to do that",
+        "Input.gen3": "I'm not the kind of woman to constantly seek attention",
+        "Input.narrative": "No way. I tried that and it was a disaster. If you want marriage and roses round the door I'm not for you, you know what I'm like. I never had any expectations, she said. Look, Ian will never hear about our liaison from me, I promise you. I may not want to settle down with my women, but I never <b>tell tales</b> on them.",
+        "responses": [
+            "neither",
+            "neither",
+            "neither"
+        ],
+        "majority": "neither"
+    },
+    {
+        "Input.gen1": "I nodded, thinking of all the fun I was going to have that weekend",
+        "Input.gen2": "Is this what it's like to be famous",
+        "Input.gen3": "I'm sure she'll be fine",
+        "Input.narrative": "You're going out for a drink with jane? But how I look over at rob, in his sharp suit, with his chiselled good looks. Maybe I should have jumped into his body, I find myself thinking. Not jealous at all. Yes, a drink, tonight, and much more, I expect he winks at me, I think we both understood that straight away. I really would'nt worry about going to work tomorrow, he says reaching over and patting my knee, I think she may be <b>away with the fairies</b>.",
+        "responses": [
+            3,
+            "neither",
+            "neither"
+        ],
+        "majority": "neither"
+    },
+    {
+        "Input.gen1": "I was trying to make a point to make him think about things",
+        "Input.gen2": "I was surprised that he could be so angry at me",
+        "Input.gen3": "He was sorry he had upset people so they would not be so quick to forgive him",
+        "Input.narrative": "No wonder you never made sergeant when you were in the police force. Got passed down for your brother too, didn't you?\"\" Chico immediately stiffened. Slowly he swerved to look at me, his face grim and his jaw taut. \"\" Where'd you hear that?\"\" \"\" Oh I'm sorry, did I <b>touch a nerve</b>?”",
+        "responses": [
+            2,
+            2,
+            1
+        ],
+        "majority": "baseline"
+    },
+    {
+        "Input.gen1": "There was no way that this place could be compared to any other resort",
+        "Input.gen2": "There are few places where one can experience nature in it's most pristine form",
+        "Input.gen3": "The place was off the beaten path, quiet and secluded we are",
+        "Input.narrative": "My heart jumped in my chest. A lake! He'd mentioned before that he'd found a perfect place for the skinny-dipping condition. This had to be it. Oh, god, why had I suggested this? \"The place is <b>off the beaten track</b>, very peaceful.",
+        "responses": [
+            "all",
+            2,
+            2
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "He was not impressed with his own performance",
+        "Input.gen2": "An angry and disappointed yell came from the other side of the field",
+        "Input.gen3": "I disagreed, saying that it was a game of chance, and that it is disrespectful to shoot someone",
+        "Input.narrative": "On the judy, yes. I swept down out of the sun on that one and gave it a good blast took out the pilot and she started going down slowly. I came about and could see the gunner trying to bail out, so I got up close so I could see his little yellow face and finished him off. Jacky was unimpressed. You shot the poor sod as he was making a jump for it, cully? That's <b>not cricket</b>, mate.",
+        "responses": [
+            "neither",
+            2,
+            3
+        ],
+        "majority": "inconsistent"
+    },
+    {
+        "Input.gen1": "Ink was running full speed towards the tavernow did fink realize the danger he was in",
+        "Input.gen2": "I had to run as fast as I could",
+        "Input.gen3": "If I didn't catch him before he hit the door, I would have never seen him again",
+        "Input.narrative": "I jumped out after him and said to clementine, \"\"you stay here and watch our stuff. Give me the pistol.\"\"She handed it to me and said, \"\"oh, jaimy, stay here with me! She ain't worth it, please, jaimy...\"\"\"\"now, clementine, I will be careful. You 'll see.\"\"And with that I scrambled after fink, who was heading <b>full tilt</b> for the nearest tavern.",
+        "responses": [
+            3,
+            2,
+            2
+        ],
+        "majority": "baseline"
+    },
+    {
+        "Input.gen1": "I'm always working hard even when i'm not supposed to",
+        "Input.gen2": "I'm so driven to get things done that I don't sleep",
+        "Input.gen3": "Do not disturb me during my toil hours",
+        "Input.narrative": "But I'm definitely not wild. I'm the type of girl who goes to bed at nine o'clock.\"\"Nine o'clock sharp?\"\"Every night. And you?\"\"I <b>burn the midnight oil</b>\"\"see?",
+        "responses": [
+            2,
+            2,
+            2
+        ],
+        "majority": "baseline"
+    },
+    {
+        "Input.gen1": "He would always be looking for something to take home and enjoy",
+        "Input.gen2": "Needed the money and he was willing to go to any lengths to get it",
+        "Input.gen3": "Has a lot of energy while  working has no energy is working is capable of work",
+        "Input.narrative": "He had visited the judge once in the hospital, after a heart attack when the doctors rounded up the family. Surprisingly, he'd been sober then. \"\" Fifty-two days, bro,\"\" he'd whispered proudly to ray as they huddled in the icu corridor. He was a walking scoreboard when rehab was working. If the judge had plans to include forrest in his estate, no one would have been more surprised than forrest. But with the chance that money or assets were about to <b>change hands</b>, forrest would be there looking for crumbs and leftovers.",
+        "responses": [
+            2,
+            2,
+            1
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "I'm just saying that you have a good reason to suspect something",
+        "Input.gen2": "At least wilton has some evidence says",
+        "Input.gen3": "I think you have very little proof to support your accusation",
+        "Input.narrative": "Where's your proof? I said. I have no proof, said jaggers. Just well reasoned suspicion. Well, I put it to you... I said,... that your suspicion is <b>wide of the mark</b>.",
+        "responses": [
+            3,
+            3,
+            3
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "I think this is one of the reasons why he was so hated",
+        "Input.gen2": "He was seen as a pariah by most",
+        "Input.gen3": "He was considered to have a low opinion of his peers",
+        "Input.narrative": "Knox, on the other hand, was neither charged nor tried, except by the press. They hounded him relentlessly, despite his claim that he didn't know that the corpses he bought were the products of murder. He was an old army surgeon and showed considerable resilience in the face of the mob. He formed a committee to make an impartial inquiry into his conduct, and it cleared him of legal responsibility, but even that didn't turn public opinion. Knox was shunned. His colleagues didn't come to his aid because he hadnt gone out of his way to <b>curry favour</b> with them and was considered arrogant.",
+        "responses": [
+            1,
+            "neither",
+            "neither"
+        ],
+        "majority": "neither"
+    },
+    {
+        "Input.gen1": "The wig and shako were very fashionable and well put together, it was a good wig",
+        "Input.gen2": "I was pleased to see that my new look was fitting",
+        "Input.gen3": "Get your shako on, we're off to war",
+        "Input.narrative": "Now, alas, we must get back. My men have probably all deserted by now. Here, let's get you squared away.\" I had shoved my wig back on my head and it sat there all askew, its locks falling about my streaming eyes. \" There,\" he says, straightening my hairpiece and placing my shako upon it. \" All <b>shipshape and bristol fashion</b>.",
+        "responses": [
+            2,
+            2,
+            2
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "We need to forget all the painful details and just focus on the present",
+        "Input.gen2": "We need to put it all behind us and move forwardothat is the only way to go",
+        "Input.gen3": "It was time for me to move on from this and move on with my life",
+        "Input.narrative": "“\"\"I saw a therapist shortly after college. I went to him for a good two years. He suggested that my hang-up about you stemmed from the fact that our break was really sudden. He suggested that I simply needed closure. Maybe that's what you need, too. Maybe we just needed to talk it all out and <b>know the score</b>-\"\" \"\"no.",
+        "responses": [
+            3,
+            2,
+            "all"
+        ],
+        "majority": "inconsistent"
+    },
+    {
+        "Input.gen1": "Was so conservative as a man",
+        "Input.gen2": "This time you crossed the line and it hurts, you will pay for it later,",
+        "Input.gen3": "You have no respect for women",
+        "Input.narrative": "A distinctly feminine voice answered and said why would I do that? I wasnt! Oh shit. The pilot hurriedly shut off the link. Jose\"chuckled and shook his head. You always manage to <b>put your foot in it</b> when it comes to women pat!",
+        "responses": [
+            "neither",
+            3,
+            "neither"
+        ],
+        "majority": "neither"
+    },
+    {
+        "Input.gen1": "It was time to start thinking and getting some perspective",
+        "Input.gen2": "She was so scared and shaky she could barely stand up",
+        "Input.gen3": "How are you supposed to think when you're so scared",
+        "Input.narrative": "And finally she gave in to the galloping fear inside her and sobbed out loud. She had never, ever, felt so desolate and alone. In the end, though, she cried herself out. And when she'd gasped to a stop, she found that she could think a little. Listen, girl. You've got to <b>get a grip</b>.",
+        "responses": [
+            "all",
+            "all",
+            "all"
+        ],
+        "majority": "all"
+    },
+    {
+        "Input.gen1": "I was ashamed of what I had done and wished I could go back and take it back",
+        "Input.gen2": "I was unable to find peace or solace",
+        "Input.gen3": "I was never able to get my reputation back",
+        "Input.narrative": "Nico inhales deeply, pushing a loud breath out before he begins, his face still looking down. \"\"Eighteen months ago I killed a man. I didn't intend to, but it happened anyway. I'm a fighter and it happened in the cage. The ref ruled it a clean hit, but it doesn't change that it was my hand that dealt him the blow that killed him. I've spent the last year of my life <b>under a cloud</b>",
+        "responses": [
+            1,
+            1,
+            3
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "Always plan your route to avoid being stuck in one place",
+        "Input.gen2": "If you are in a situation where you have to make a decision, then you should always choose the",
+        "Input.gen3": "We always have to be ready to move at a moment's notice",
+        "Input.narrative": "She was silent for a moment. \" I don't know if I'm glad or not,\" she said. \" I hate this truck, but I don't know if I want to actually arrive anywhere.\" Reacher nodded. \" It reduces our chances,\" he said. \" <b>rule of thumb</b> is escape while you're on the move.",
+        "responses": [
+            1,
+            1,
+            3
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "Elliot was not going to call the police about this, it was not in his nature",
+        "Input.gen2": "I was not surprised to see them acting so suspiciously, I was shocked to see it",
+        "Input.gen3": "They were calm and maintained a cool head",
+        "Input.narrative": "The more my gut screamed this had nothing to do with a misdialed number and everything to do with the murder at school. Before I went to sleep, I reminded myself that jinx and the unidentified guy with him looked inside the dumpster as if they were verifying something. I knew they saw the body. My word, they had to have smelled it and looked out of sheer curiosity. Whether that made them guilty or not, they sure as heck acted guilty of something. Their reactions werent typical, and to the best of my knowledge, they didn't go back inside the building and <b>cry foul</b>.",
+        "responses": [
+            2,
+            1,
+            1
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "I had witnessed something supernatural that left me in awe",
+        "Input.gen2": "I believe in the power of love",
+        "Input.gen3": "I had no idea what he was talking about, but I felt a deep sense of peace",
+        "Input.narrative": "Not if the fog lasts'til morning-and it will.\"Jamie sounded resigned, but he seemed more peaceful than he had earlier. We sat quietly together for some time, watching the play of flames on the fog-an eerie sight, as the fire seemed to shimmer and merge with the mist, the flames stretching strangely up and up, disappearing into the swirl of white. \"D 'ye believe in ghosts, sassenach?\"Jamie asked suddenly. \"Er... well, <b>not to put too fine a point on it</b>, yes,\"I said.",
+        "responses": [
+            1,
+            1,
+            1
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "I had to be more careful with my words",
+        "Input.gen2": "Was glad he had such a nice demeanor",
+        "Input.gen3": "I was looking forward to meeting him",
+        "Input.narrative": "My aunt is forgotten, the bakery, everything else, and it's just me and him, standing in front of the door, the spot where just last night he had me pressed against the cold glass while he kissed me senseless. \"So I'm your boy toy?\"He asks, his voice a husky murmur that sends chills down my spine. \"If the shoe fits,\"I tease, pleased when he opens the door for me like a gentleman should. He has manners. This <b>is a plus</b>.",
+        "responses": [
+            2,
+            "all",
+            2
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "I had to tell her about my father's death",
+        "Input.gen2": "Told her the truth there",
+        "Input.gen3": "I didn't want her to be emotionally involved",
+        "Input.narrative": "When the incident happened, I didn't tell dara. She was only fourteen years old, and well, I just didn't know how to break the news to her. When it was time for the trial, I sent dara to stay with my niece in nashville. She didn't know what was going on. She just thought she was visiting them for the summer. When she came back, I did tell her that her father had killed someone while driving <b>under the influence</b> and that he had been incarcerated.",
+        "responses": [
+            2,
+            "neither",
+            2
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "the matter to be resolved quickly the case she needed a plan to resolve it",
+        "Input.gen2": "She needed to be as direct as possible",
+        "Input.gen3": "She needed to make it clear what she wanted",
+        "Input.narrative": "Once she informed him that their marriage was over, jason would have no more marital rights. Later, she would decide where she was going and what she would do. For now, she needed to get him to agree to a divorce. Or did she even need his permission? Since she wasn't certain, she decided it was wise not to alienate him unnecessarily or anger him into refusing. But then, she shouldn't <b>beat about the bush</b> too long, either.",
+        "responses": [
+            2,
+            3,
+            "all"
+        ],
+        "majority": "inconsistent"
+    },
+    {
+        "Input.gen1": "She must have been really upset to get so far away from him",
+        "Input.gen2": "Lucy was a woman of many talents and abilities",
+        "Input.gen3": "Ellucy was always responsible and a team playerillucy was the leader of the pack",
+        "Input.narrative": "We were... friends. Lifelong friends. That's no secret.\"He and lucy ann shared so much history it was impossible to unravel events from the past without thinking about each other. \"The fact that there was briefly more... I can't deny that, either.\"\"You must not have been <b>up to snuff</b> for her to run so fast.",
+        "responses": [
+            1,
+            "neither",
+            1
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "The beast was so powerful, it was able to make all the scientists tilt",
+        "Input.gen2": "Theory says this but we need to find out for sure",
+        "Input.gen3": "Ay, the beast wants to know how the world works",
+        "Input.narrative": "Dark matter might exist! We might find the Higgs boson in CERN! M-theory might explain it all! They might be giants! Is the rocket fuel of science; its what propels science into a future that nobody can predict. The beast that wants to know causes scientists to <b>tilt at windmills</b> while acting like sherlock holmes!",
+        "responses": [
+            3,
+            2,
+            "neither"
+        ],
+        "majority": "inconsistent"
+    },
+    {
+        "Input.gen1": "I was so surprised that I didn't even know what to say to him",
+        "Input.gen2": "Found out that he had been faking it for all these years",
+        "Input.gen3": "The truth was finally coming out and it was shocking",
+        "Input.narrative": "And, I had been wondering what had happened to make you so suddenly go into hiding from me? Ah he'd noticed that. Not that shed been very subtle, she acknowledged candidly. I figured id give you a bit more time to sort out your feelings for me, he glanced down at her face, and you do have feelings for me, he asserted confidently. Her eyes morphed from doe-eyed to deer-in the-headlights within a single heartbeat. So, after hearing from maman, I realised that the reason behind your, he paused for effect, choosing his words carefully, abjuration of me was that my mother <b>let the cat out of the bag</b> about my intentions towards you.",
+        "responses": [
+            1,
+            1,
+            1
+        ],
+        "majority": "baseline"
+    },
+    {
+        "Input.gen1": "He was doing everything right, but he was wrong in the wrong way",
+        "Input.gen2": "Maybe trying to be a good friend was the wrong thing to do",
+        "Input.gen3": "He had a good heart, but it was clouded by passion",
+        "Input.narrative": "I think it's obviously important to you and I absolutely think ash should know that and recognize what he did was wrong. But at the same time, is it something you can't forgive him for? Because really, what did he do that was so bad? His heart was in the right place even if he went about it all wrong.\" And there it was. <b>in a nutshell</b>.",
+        "responses": [
+            "all",
+            "all",
+            "neither"
+        ],
+        "majority": "all"
+    },
+    {
+        "Input.gen1": "I was worn down from the effort",
+        "Input.gen2": "Ad been so tired and in need of sleep that I could not get it",
+        "Input.gen3": "I needed some time to get back to a routine",
+        "Input.narrative": "She looked exhausted, even with her carefully refreshed hair and makeup. She never slept well on flights. ' The coffee shops don't start till after customs. You watch for the bags. ' I walked away, more swiftly than exhaustion should have allowed. Over the past month I had got used to being alone, and spending a week <b>joined at the hip</b> to vanessa, working and sleeping with hardly a minute's break, had been hard.",
+        "responses": [
+            1,
+            1,
+            1
+        ],
+        "majority": "literal"
+    },
+    {
+        "Input.gen1": "She had the potential to be a good employee",
+        "Input.gen2": "She was still young and had a lot of potential",
+        "Input.gen3": "Looked like she'd do just fine",
+        "Input.narrative": "After a time she stood and began to unpack, putting clothes, books, and painting and drawing materials into their proper places, not yet thinking about the restthe fact that in a day or so she would begin her tenure as bear lodges summer cook. She closed her eyes and pulled in a deep breath of earth and sea-scented air. It wasnt going to be easy, but this room, the jeffers, and wrangell itselfmaybe everything would be all right. Chapter nine the scuttlebutt about the jeffers new cook took all of fifteen minutes to make the rounds that spring, the fourth since gerrum had moved to wrangell. The information included the particulars that instead of the usual male cooking school graduate, the jeffers had hired a woman. And while the woman was <b>no spring chicken</b> and a bit too tall to make most men comfortable, she was still worth looking at.",
+        "responses": [
+            3,
+            1,
+            2
+        ],
+        "majority": "inconsistent"
+    },
+    {
+        "Input.gen1": "I nodded, saying that I would see him tomorrow",
+        "Input.gen2": "I decided to go home and get some sleep",
+        "Input.gen3": "Was about to go home but he decided to stay and chat it up with herl",
+        "Input.narrative": "The party went on at full pace. Everyone enjoyed it thoroughly. Rob noticed a beautiful girl standing in the corner alone. He thought this is his opportunity to make a connection by indulging in some small talk. Hi I am Rob. You are stunning. Wanna Dance?' .NoYou must excuse me, I'm a bit <b>tired and emotional </b> just now. I think I'd best be going home.”",
+        "responses": [
+            "neither",
+            2,
+            2
+        ],
+        "majority": "baseline"
+    },
+    {
+        "Input.gen1": "Had to be optimistic to keep going was not a member of the club said could be",
+        "Input.gen2": "I can't believe you still have a smile on your face, after all that has happened",
+        "Input.gen3": "They were in the club, and they were having a great time",
+        "Input.narrative": "They have my husband here. If I escape, they'll kill him. Well, shoot. Josh plopped down, cross-legged in the sand. You know, keeping my famously optimistic attitude has not been easy down here. <b>join the club</b>, sara said, eying slink and his friends.",
+        "responses": [
+            "neither",
+            "neither",
+            2
+        ],
+        "majority": "neither"
+    },
+    {
+        "Input.gen1": "Heard it loud and clear",
+        "Input.gen2": "It was deliberate, and it worked",
+        "Input.gen3": "It was very calculated",
+        "Input.narrative": "The direct approach. Concierges are human. And it was a well-chosen sum. Four hundred was a slightly unusual number. It wasn't glib or run of the mill. It didn't go <b>in one ear and out the other</b>.",
+        "responses": [
+            1,
+            "all",
+            3
+        ],
+        "majority": "inconsistent"
+    },
+    {
+        "Input.gen1": "Was not the type of person who could be trusted",
+        "Input.gen2": "Was not good at making quick decisions effecting others",
+        "Input.gen3": "He was not cut out from the business",
+        "Input.narrative": "I don't suppose when he left home he intended to kill someone with it. Morton put a thumb to his lips and chewed it savagely. Macallister waited for whatever it was he was trying to make up his mind to say, the silence stretched on for several seconds, and then. Trevor wouldn't come into the business with me you know. Knew he wasn't cut out for it. He was too pleasant and easy going for the <b>cut and thrust</b> of commercial life.”",
+        "responses": [
+            2,
+            "neither",
+            2
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "I wanted to know what it was like to be a hero",
+        "Input.gen2": "I had to ask what it's like to work in a job where one's every decision is watched",
+        "Input.gen3": "He wanted to know what it was like from the inside",
+        "Input.narrative": "Sam grinned around another mouthful of my fries. \"\" Hey, layla, do you think zayne would let me interview him for the school paper?\"\" My brows rose. \"\" Why do you want to interview him?\"\" He gave me a knowing look. \"\" To ask what's it like to be a warden in d.c., Hunting down the bad guys and bringing them to justice <b>and all that jazz</b>.\"\"\",",
+        "responses": [
+            "neither",
+            "neither",
+            3
+        ],
+        "majority": "neither"
+    },
+    {
+        "Input.gen1": "Was not built for endurance",
+        "Input.gen2": "Was thin as a brick",
+        "Input.gen3": "She is very petite",
+        "Input.narrative": "Or, you could start taking daisy and victor out for some long walks. ' On hearing their names, both dogs raised their heads but seeing food was not on the horizon, sprawled back down across the bedroom door. They both had strict instructions to stay in the bedroom, but inevitably, they would work their way to being under the table nudging for titbits. George sighed. ' It's the way I'm made babe. Look at lucy - <b>thin as a rake</b>. '",
+        "responses": [
+            3,
+            3,
+            3
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "She was crying and crying and not being able to stop",
+        "Input.gen2": "Weeping was one of the few things she could do to cope pain",
+        "Input.gen3": "I just kept crying as the pain faded",
+        "Input.narrative": "Unthinking, she moved one hand to the other side and twisted, pushing with her feet and shoulders in an attempt to get up. But her body felt like jelly and she fell face-first on the grass, hitting her nose hard against an exposed stretch of tree root, her arms folded underneath her. Pain shot through her nose and she felt the wetness of blood oozing out. With some effort, she managed to twist her face to the side. This provided some relief from the pain, but the blood kept flowing. Her tears decided to <b>follow suit</b>.",
+        "responses": [
+            1,
+            2,
+            "all"
+        ],
+        "majority": "inconsistent"
+    },
+    {
+        "Input.gen1": "I was tired of having to endure his shit",
+        "Input.gen2": "Ealing with that guy had made her so upset that she could barely function in the morning",
+        "Input.gen3": "I didn't want to be around him or be around anyone who treated me like that",
+        "Input.narrative": "Ghost smirks at me and answers quietly, \"i would tell you if I were wearin\"any.\"The girls whoop and the guys groan. He just smiles and asks, \"lola, what's the strangest name someone's asked to call you in bed?\"Lola's shoulders shake with silent laughter and she replies, \"there was a guy who called me puppy and wanted me to bark like a dog.\"Her body shakes and tears fall down her smiling face. \"I didn't like him enough to <b>put up with</b> that shit.",
+        "responses": [
+            "all",
+            3,
+            3
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "Had to keep up the pace and be ready to go at a moment's notice",
+        "Input.gen2": "I needed a break to just reflect on things",
+        "Input.gen3": "I was exhausted from the amount of work I did each day",
+        "Input.narrative": "She looked exhausted, even with her carefully refreshed hair and makeup. She never slept well on flights. ' The coffee shops don't start till after customs. You watch for the bags. ' I walked away, more swiftly than exhaustion should have allowed. Over the past month I had got used to being alone, and spending a week <b>joined at the hip</b> to vanessa, working and sleeping with hardly a minute's break, had been hard.",
+        "responses": [
+            2,
+            "all",
+            "neither"
+        ],
+        "majority": "inconsistent"
+    },
+    {
+        "Input.gen1": "I am aware of the dangers of what i'm doing",
+        "Input.gen2": "Never want to hurt her again be careful not to get drawn into a situation like that",
+        "Input.gen3": "Knew she would be careful about who she let near her again",
+        "Input.narrative": "His hands were on my arms, and he started stroking softly, a soothing motion, his face nuzzling into the spot just behind my ear. \"\" I didn't think of it like that. I thought it was harmless, because it didn't mean anything to me, but I'm sorry if it hurt you. You're right, that's not harmless, and it won't happen again. Just understand this, even if we weren't together, I'd never go near her again, not like that. I know that woman too well to ever want to <b>lay a finger on</b> her, okay?",
+        "responses": [
+            2,
+            2,
+            "neither"
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "Found it very interesting",
+        "Input.gen2": "Ers words were full of excitement, he was excited about the new venture<pad> business",
+        "Input.gen3": "One's income is directly related to the amount of privateering they do",
+        "Input.narrative": "The desert, the sun, two gloss coats of Ephebian Retsina on his stomach lining and a bottle of wine were getting together to beat up his synapses. ' I must\"\"say,\"\"he managed, leaning on the rail, 'You're doing all right for yourself. ' ' It's okay,\"\"said Chidder. ' Commerce is quite interesting. Building up markets, you know. The <b>cut and thrust</b> in the privateering sector.",
+        "responses": [
+            2,
+            "neither",
+            "neither"
+        ],
+        "majority": "neither"
+    },
+    {
+        "Input.gen1": "At your fingertips, whenever you want it",
+        "Input.gen2": "It is a crazy idea, but it is possible",
+        "Input.gen3": "This is like having a god-given right to do whatever you want without having to think about consequences",
+        "Input.narrative": "Next meal, you choose. Anything you want, I 'll make it happen.\" Anything? Best not to talk about exactly what she wanted right now. She'd already let her out-of-control attraction to him embarrass her once this evening. \" What a crazy concept to have whatever you want <b>at your fingertips</b>.",
+        "responses": [
+            2,
+            3,
+            "all"
+        ],
+        "majority": "inconsistent"
+    },
+    {
+        "Input.gen1": "E would do anything to get ahead",
+        "Input.gen2": "Was known to enjoy the pain and humiliation of his victims",
+        "Input.gen3": ", in fact, he seems to have enjoyed inflicting pain on others as much as he enjoyed receiving it",
+        "Input.narrative": "Yes, sir,\" continued the colonel. ' If there was ever an example of what's called the scum-of-the-earth, it was Chernak. During the war be was a Czechoslovakia!! Recruit at Dachau, a trilingual interrogator as brutal as any guard in the camp. He sent poles, Slovaks and jews to the showers after torture sessions in which he extracted - and manufactured - \"incriminating\" information Dachau's commandants wanted to hear. He went to any length to <b>curry favour</b> with his superiors and the most sadistic cliques were hard pressed to match his exploits.",
+        "responses": [
+            1,
+            1,
+            2
+        ],
+        "majority": "baseline"
+    },
+    {
+        "Input.gen1": "Is it possible that he doesn't feel remorse because he feels no guilt",
+        "Input.gen2": "Michael was always looking for something to be curious about",
+        "Input.gen3": "Eager to find a way to hurt me again",
+        "Input.narrative": "Michael dangled his legs over the edge of the couch, and I knew that-like me-he was avoiding the elephant in the room. \"\"He doesn't feel fear, ever. He can feel pleasure, but not happiness. No regret. No remorse. Most of the time, his expression is dominated by more cerebral emotions: self-satisfaction, curiosity, amusement, a desire to <b>twist the knife</b>.",
+        "responses": [
+            3,
+            3,
+            1
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "I had to slog on despite the problems it caused me",
+        "Input.gen2": "You will feel pain and pleasure at the same time",
+        "Input.gen3": "I had been married for a long time and had a lot to learn",
+        "Input.narrative": "She shook her head. The stone mountain they used to call him when he was boxing. Not because he was particularly big, he was just light-heavyweight, or could take a lot of punches but because he never said much. Never gave away what he was feeling inside. She clamped one hand to her breast. And maybe thats okay when You're preparing for a boxing match and want to appear like a lump of stone, immovable, to your opponent but let me tell you, mr mcelroy, its pretty hard to take <b>day in, day out</b> in a marriage.",
+        "responses": [
+            2,
+            1,
+            3
+        ],
+        "majority": "inconsistent"
+    },
+    {
+        "Input.gen1": "You both need to work together to get anything done",
+        "Input.gen2": "It was hard to get along with her and it was hard for me to get on her good side",
+        "Input.gen3": "You guys are so different I can't even say anything good about you",
+        "Input.narrative": "Silence lasted all of ten seconds. Kat couldn't keep anything in. \"\"What's happened between you and Sculpt?”\"\"\"Nothing.\"\"\"\"Bullshit. You guys are like <b>oil and water</b> in a blender set on full blast.\"\"",
+        "responses": [
+            2,
+            2,
+            3
+        ],
+        "majority": "baseline"
+    },
+    {
+        "Input.gen1": "He said he had to be careful with what he said and did, because it was a dangerous thing",
+        "Input.gen2": "Needed to find a way to get it out to the general public",
+        "Input.gen3": "We had to convince him that it was safe to share the secret",
+        "Input.narrative": "Is that what happened? Ackmeyer sold his tech to someone who thought it might be put to better use as a weapon against the breed?\"\"That's what I wanted to know,\"kellan replied. \"I meant to get answers, and if ackmeyer didn't prove cooperative, I was prepared to persuade him to destroy the technology - by whatever means necessary. Problem was, ackmeyer didn't know anything about his work being leaked outside his private lab. When I questioned him while he was in my custody, he said his project - something he was calling morningstar - was still in testing stages, <b>under lock and key</b>.",
+        "responses": [
+            1,
+            "all",
+            "all"
+        ],
+        "majority": "all"
+    },
+    {
+        "Input.gen1": "You'd think the bakery would do well, given all the publicity they get",
+        "Input.gen2": "Ence of the business proved to be successful",
+        "Input.gen3": "It was the best business in town",
+        "Input.narrative": "We'd time our visits to coincide, while we checked on our franchise.\" She gazed off into space, as if imagining those visits as becoming exceedingly conjugal. \" Oh.\" Eve was trying to picture this arrangement, with Denise managing from the east coast and manny from the west coast, with periodic \"meetings\" in the middle. Denise obviously had high hopes for these meetings. \" If an X-rated bakery does so well in a town like middlesex,\" Denise continued, \"then it should <b>make money hand over fist</b> in a small town where the most exciting thing is a potluck at the grange hall and bingo in the church basement.",
+        "responses": [
+            1,
+            1,
+            2
+        ],
+        "majority": "context"
+    },
+    {
+        "Input.gen1": "Was not happy with the situation, and was ready to fight back",
+        "Input.gen2": "I think we'd rather not hear about it either",
+        "Input.gen3": "I think you two should let it go, since it doesn't benefit us",
+        "Input.narrative": "It is our wish to be apart from all others. ' ' Because you're so much better than the rest of us? ' Sephrenia's tone was thick with contempt. ' Not better, priestess, only different. We will leave that puffed-up sense of superiority to thy race. ' ' If you two want to renew a few eons-<b>old hat</b>reds, I think the rest of us would prefer not to sit through it,\"vanion said coolly.",
+        "responses": [
+            "all",
+            "neither",
+            "neither"
+        ],
+        "majority": "neither"
+    }
+]
