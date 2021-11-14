@@ -14,7 +14,7 @@ do
         --model_name_or_path ${lm} \
         --do_train \
         --do_eval \
-	--gradient_accumulation_steps 16 \
+	--gradient_accumulation_steps 16 \ #change to 64 for similes
         --evaluation_strategy steps \
         --overwrite_cache \
         --num_train_epochs 10 \
