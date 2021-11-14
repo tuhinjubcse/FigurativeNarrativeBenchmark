@@ -49,11 +49,11 @@ where `device` is a GPU device number or -1 for CPU.
 
 ### GPT-2
 
-TBD
+       Use https://github.com/peterwestuw/surface-form-competition and replace ROC stories with this data
 
 ### GPT-3
 
-TBD
+        Use https://github.com/peterwestuw/surface-form-competition and replace ROC stories with this data
 
 ## Few-shot baselines
 
@@ -78,4 +78,3 @@ where `set` is in {dev, test}.
                 --model_type albert --model_name_or_path albert-xxlarge-v2 --task_name multirc\
                 --output_dir output/simile/discriminative/petmodelsfewshotsimile/output/ --do_eval --do_train
 
-TBD
