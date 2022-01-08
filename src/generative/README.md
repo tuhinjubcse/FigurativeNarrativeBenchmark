@@ -26,17 +26,17 @@ where `set` is in {dev, test}, `device` is a GPU device number or -1 for CPU, an
 To get zero-shot results for GPT-3 (the other models are included in `generate_texts.sh`), run:
 
 ```
-bash src/generative/gpt3_zero_shot.sh [api_key] [set]
+bash src/generative/gpt3_zero_shot.sh [api_key] [set] [task]
 
 ```
 
 For few-shot results, run:
 
 ```bash
-bash src/generative/gpt3_few_shot.sh [api_key] [set]
+bash src/generative/gpt3_few_shot.sh [api_key] [set] [task]
 ```
 
-where `set` is in {dev, test} and `api_key` is your API Key for OpenAI GPT-3.
+where `set` is in {dev, test} and `api_key` is your API Key for OpenAI GPT-3 and task is idiom/simile.
 
 ### Evaluation
 
