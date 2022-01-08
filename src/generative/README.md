@@ -26,6 +26,8 @@ where `set` is in {dev, test}, `device` is a GPU device number or -1 for CPU, an
 To get zero-shot results for GPT-3 (the other models are included in `generate_texts.sh`), run:
 
 ```
+bash src/generative/gpt3_zero_shot.sh [api_key] [set]
+
 ```
 
 For few-shot results, run:
