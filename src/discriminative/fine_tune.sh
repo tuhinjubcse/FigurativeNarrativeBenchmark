@@ -17,9 +17,9 @@ CUDA_VISIBLE_DEVICES=${device} python -m src.discriminative.run_multiple_choice 
         --evaluation_strategy steps \
         --overwrite_cache \
         --num_train_epochs 10 \
-        --logging_steps 388 \
-        --save_steps 388 \
-        --eval_steps 388 \
+        --logging_steps 388 \ #change 401 for idiom
+        --save_steps 388 \ #change 401 for idiom
+        --eval_steps 388 \ #change 401 for idiom
         --per_device_train_batch_size 8 \
         --per_device_eval_batch_size 8 \
         --learning_rate 1e-5 ;
