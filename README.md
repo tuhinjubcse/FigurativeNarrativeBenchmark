@@ -3,8 +3,8 @@
 
 Data and Code for TACL Paper:
 
-                                   It's not Rocket Science: Interpreting Figurative Language in Narratives
-                                   Tuhin Chakrabarty, Yejin Choi and Vered Shwartz
+                           It's not Rocket Science: Interpreting Figurative Language in Narratives
+                           Tuhin Chakrabarty, Yejin Choi and Vered Shwartz
           
 
 Our repo is organized as
