@@ -22,6 +22,8 @@ Our repo is organized as
           
 Test Labels are intentionally hidden, Email me at (tuhin.chakr@cs.columbia.edu) if you need them
 
+You can submit to our leaderboard https://leaderboard.allenai.org/idiom-simile/submissions/public
+
 
 If you use our code or data please cite us
 
